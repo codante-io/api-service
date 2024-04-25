@@ -1,0 +1,18 @@
+meta {
+  name: Create Frases
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8000/api/frases
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "author": "Roberto Cestari",
+    "quote": "A vida é bela."
+  }
+}
