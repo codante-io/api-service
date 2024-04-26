@@ -18,7 +18,7 @@ class ResetOrders extends Command
      *
      * @var string
      */
-    protected $description = 'Reseta e faz o seed';
+    protected $description = 'Reseta';
 
     /**
      * Execute the console command.
@@ -32,9 +32,9 @@ class ResetOrders extends Command
             '--path' => 'database/migrations/orders',
             '--database' => 'orders',
         ]);
-        $this->call('db:seed', [
-            '--class' => 'Database\Seeders\Order\OrderSeeder',
-            '--database' => 'orders',
-        ]);
+        // $this->call('db:seed', [
+        //     '--class' => 'Database\Seeders\Order\OrderSeeder',
+        //     '--database' => 'orders',
+        // ]);
     }
 }
