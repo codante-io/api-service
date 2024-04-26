@@ -54,7 +54,7 @@ class QuoteController extends Controller
 
     public function showOne($id)
     {
-        $quote = Quote::find($id);
+        $quote = Quote::findOrFail($id)->json();
         return new QuoteResource($quote);
     }
 
