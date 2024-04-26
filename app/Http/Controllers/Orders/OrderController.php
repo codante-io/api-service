@@ -7,6 +7,7 @@ use App\Http\Requests\StoreOrderRequest;
 use App\Http\Requests\UpdateOrderRequest;
 use App\Http\Resources\Order\OrderResource;
 use App\Models\Orders\Order;
+use Illuminate\Support\Facades\Artisan;
 
 class OrderController extends Controller
 {
@@ -52,5 +53,20 @@ class OrderController extends Controller
     {
         // remove order
         $order->delete();
+    }
+
+    public function reset() {
+        // reset orders
+        Artisan::call('migrate:fresh', [
+            '--path' => 'database/migrations/orders',
+            '--database' => 'orders',
+        ]);
+        Artisan::call('db:seed', [
+            '--class' => 'Database\Seeders\Order\OrderSeeder',
+            '--database' => 'orders',
+        ]);
+
+        return response()->json(['message' => 'Database reset']);
+
     }
 }
