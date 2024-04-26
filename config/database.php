@@ -6,12 +6,23 @@ return [
 
     'default' => env('DB_CONNECTION', 'sqlite'),
     'connections' => [
+        'sqlite' => [
+            'driver' => 'sqlite',
+            'database' => database_path('database.sqlite'),
+            'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
+        ],
+        
         'frases_motivacionais' => [
             'driver' => 'sqlite',
             'database' => app_path('APIs/FrasesMotivacionais/db.sqlite'),
-            'prefix' => '',
             'foreign_key_constraints' => true,
         ],
+        'orders' => [
+            'driver' => 'sqlite',
+            'database' => database_path('db/orders.sqlite'),
+            'foreign_key_constraints' => true,
+        ],
+        
     ],
 
 

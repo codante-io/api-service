@@ -1,0 +1,18 @@
+meta {
+  name: Create Frases1
+  type: http
+  seq: 5
+}
+
+post {
+  url: https://apis.codante.io/api/frases-motivacionais/frases
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "author": "Roberto Cestari",
+    "quote": "A vida é bela"
+  }
+}
