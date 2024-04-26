@@ -19,7 +19,6 @@ Route::middleware(['throttle:api'])->prefix('frases-api')->group(function () {
 Route::middleware(['throttle:api'])->prefix('orders-api')->group(function () {
     Route::get('/orders', [OrderController::class, 'index']);
     Route::post('/orders', [OrderController::class, 'store']);
-    Route::put('/orders/{id}', [OrderController::class, 'update']);
     Route::delete('/orders/{id}', [OrderController::class, 'destroy']);
     Route::get('/orders/{id}', [OrderController::class, 'show']);
     Route::get('/reset', [OrderController::class, 'reset']);

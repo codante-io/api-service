@@ -3,21 +3,30 @@
 namespace App\Http\Controllers\Orders;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\StoreOrderRequest;
-use App\Http\Requests\UpdateOrderRequest;
+use App\Http\Requests\Orders\StoreOrderRequest;
+use App\Http\Requests\Orders\UpdateOrderRequest;
 use App\Http\Resources\Order\OrderResource;
 use App\Models\Orders\Order;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Validator;
 
 class OrderController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
 
         $orders = Order::query();
+
+        $request->validate([
+            // Busca por status
+            'status' => 'in:pending,completed',
+            // Busca textual no nome
+            'search' => 'string',
+        ]);
 
         // handle status filter
         if (request()->has('status')) {
@@ -31,12 +40,7 @@ class OrderController extends Controller
 
         $orders = $orders->paginate(10);
         return OrderResource::collection($orders);
-
-
-        $orders = Order::paginate(10);
-        return OrderResource::collection($orders);
     }
-
 
 
     /**
@@ -44,6 +48,10 @@ class OrderController extends Controller
      */
     public function store(StoreOrderRequest $request)
     {
+        // create order
+        $order = Order::create($request->all());
+        return new OrderResource($order);
+
         //
     }
 
@@ -55,14 +63,6 @@ class OrderController extends Controller
         return new OrderResource($order);
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(UpdateOrderRequest $request, Order $order)
-    {
-        // update order
-        $order->update($request->all());
-    }
 
     /**
      * Remove the specified resource from storage.
