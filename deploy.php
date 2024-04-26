@@ -26,5 +26,5 @@ host('216.238.108.237')
     ->set('deploy_path', '/var/www/apis');
 
 // Hooks
-
+after('artisan:migrate', 'artisan:api:orders:reset');
 after('deploy:failed', 'deploy:unlock');
