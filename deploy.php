@@ -22,7 +22,6 @@ task('api-commands', function () {
 
 
 // Hosts
-
 host('216.238.108.237')
     ->set('remote_user', 'robertotcestari')
     ->set('deploy_path', '/var/www/apis');
