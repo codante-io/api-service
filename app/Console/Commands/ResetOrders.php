@@ -11,7 +11,7 @@ class ResetOrders extends Command
      *
      * @var string
      */
-    protected $signature = 'api:orders:reset';
+    protected $signature = 'api:orders-api:reset';
 
     /**
      * The console command description.

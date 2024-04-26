@@ -16,7 +16,7 @@ set("keep_releases", 1);
 // Tasks
 // run artisan command
 task('api-commands', function () {
-    run('{{bin/php}} {{release_path}}/artisan api:orders:reset');
+    run('{{bin/php}} {{release_path}}/artisan api:orders-api:reset');
     run('{{bin/php}} {{release_path}}/artisan api:frases-motivacionais:reset');
 })->desc('Reset orders');
 

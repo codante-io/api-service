@@ -75,16 +75,7 @@ class OrderController extends Controller
 
     public function reset()
     {
-        // reset orders
-        Artisan::call('migrate:fresh', [
-            '--path' => 'database/migrations/orders',
-            '--database' => 'orders',
-        ]);
-        Artisan::call('db:seed', [
-            '--class' => 'Database\Seeders\Order\OrderSeeder',
-            '--database' => 'orders',
-        ]);
-
+        Artisan::call('api:orders-api:reset');
         return response()->json(['message' => 'Database reset']);
     }
 }
