@@ -32,10 +32,12 @@ class ResetFrasesMotivacionais extends Command
         $this->call('migrate:fresh', [
             '--path' => 'database/migrations/frases_motivacionais',
             '--database' => 'frases_motivacionais',
+            '--force' => true,
         ]);
         $this->call('db:seed', [
             '--class' => 'Database\Seeders\FrasesMotivacionais\QuoteSeeder',
             '--database' => 'frases_motivacionais',
+            '--force' => true,
         ]);
     }
 }

@@ -31,10 +31,12 @@ class ResetOrders extends Command
         $this->call('migrate:fresh', [
             '--path' => 'database/migrations/orders',
             '--database' => 'orders',
+            '--force' => true,
         ]);
         $this->call('db:seed', [
             '--class' => 'Database\Seeders\Order\OrderSeeder',
             '--database' => 'orders',
+            '--force' => true,
         ]);
     }
 }
