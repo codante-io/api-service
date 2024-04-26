@@ -1,4 +1,5 @@
 <?php
+
 namespace Deployer;
 
 require 'recipe/laravel.php';
@@ -14,8 +15,9 @@ set("keep_releases", 1);
 
 // Tasks
 // run artisan command
-task('artisan:api:orders:reset', function () {
+task('api-commands', function () {
     run('{{bin/php}} {{release_path}}/artisan api:orders:reset');
+    run('{{bin/php}} {{release_path}}/artisan api:frases-motivacionais:reset');
 })->desc('Reset orders');
 
 
@@ -26,5 +28,5 @@ host('216.238.108.237')
     ->set('deploy_path', '/var/www/apis');
 
 // Hooks
-after('artisan:migrate', 'artisan:api:orders:reset');
+after('artisan:migrate', 'api-commands');
 after('deploy:failed', 'deploy:unlock');
