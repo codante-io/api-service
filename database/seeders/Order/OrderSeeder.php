@@ -13,6 +13,6 @@ class OrderSeeder extends Seeder
     public function run(): void
     {
         // create 100 orders
-        Order::factory()->count(200)->create();
+        Order::factory()->count(1000)->create();
     }
 }
