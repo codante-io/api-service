@@ -4,8 +4,9 @@ namespace App\APIs\FrasesMotivacionais;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Artisan;
 
-class QuoteController extends Controller
+ class QuoteController extends Controller
 {
     public function show() {
         
@@ -48,6 +49,20 @@ class QuoteController extends Controller
 
     public function showOne($id) {
         $quote = Quote::find($id);
-        return response()->json($quote);
+        return new QuoteResource($quote);
+    }
+
+    public function reset() {
+        Artisan::call('migrate:fresh', [
+            '--path' => 'app/APIs/FrasesMotivacionais/migrations',
+            '--database' => 'frases_motivacionais',
+        ]);
+
+        Artisan::call('db:seed', [
+            '--class' => 'QuoteSeeder',
+            '--database' => 'frases_motivacionais',
+        ]);
+
+        return response()->json(['message' => 'Database reset']);
     }
 }
