@@ -19,7 +19,7 @@ Route::middleware(['throttle:api'])->prefix('frases-api')->group(function () {
 Route::middleware(['throttle:api'])->prefix('orders-api')->group(function () {
     Route::get('/orders', [OrderController::class, 'index']);
     Route::post('/orders', [OrderController::class, 'store']);
-    Route::delete('/orders/{id}', [OrderController::class, 'destroy']);
-    Route::get('/orders/{id}', [OrderController::class, 'show']);
+    Route::delete('/orders/{order}', [OrderController::class, 'destroy']);
+    Route::get('/orders/{order}', [OrderController::class, 'show']);
     Route::get('/reset', [OrderController::class, 'reset']);
 });
