@@ -16,10 +16,28 @@ class OrderController extends Controller
      */
     public function index()
     {
-        $orders = Order::paginate(10);
+
+        $orders = Order::query();
+
+        // handle status filter
+        if (request()->has('status')) {
+            $orders->where('status', request('status'));
+        }
+
+        // handle search filter
+        if (request()->has('search')) {
+            $orders->whereRaw('LOWER(`customer_name`) LIKE ?', ['%' . strtolower(request('search')) . '%']);
+        }
+
+        $orders = $orders->paginate(10);
         return OrderResource::collection($orders);
 
+
+        $orders = Order::paginate(10);
+        return OrderResource::collection($orders);
     }
+
+
 
     /**
      * Store a newly created resource in storage.
@@ -55,7 +73,8 @@ class OrderController extends Controller
         $order->delete();
     }
 
-    public function reset() {
+    public function reset()
+    {
         // reset orders
         Artisan::call('migrate:fresh', [
             '--path' => 'database/migrations/orders',
