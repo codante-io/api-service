@@ -11,7 +11,7 @@ class ResetFrasesMotivacionais extends Command
      *
      * @var string
      */
-    protected $signature = 'frases-motivacionais:reset';
+    protected $signature = 'api:frases-motivacionais:reset';
 
     /**
      * The console command description.
@@ -25,12 +25,16 @@ class ResetFrasesMotivacionais extends Command
      */
     public function handle()
     {
+        if (!file_exists(database_path('db/frases_motivacionais.sqlite'))) {
+            touch(database_path('db/frases_motivacionais.sqlite'));
+        }
+
         $this->call('migrate:fresh', [
-            '--path' => 'app/APIs/FrasesMotivacionais/migrations',
+            '--path' => 'database/migrations/frases_motivacionais',
             '--database' => 'frases_motivacionais',
         ]);
         $this->call('db:seed', [
-            '--class' => 'QuoteSeeder',
+            '--class' => 'Database\Seeders\FrasesMotivacionais\QuoteSeeder',
             '--database' => 'frases_motivacionais',
         ]);
     }

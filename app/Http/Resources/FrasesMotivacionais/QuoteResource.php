@@ -1,6 +1,6 @@
 <?php
 
-namespace App\APIs\FrasesMotivacionais;
+namespace App\Http\Resources\FrasesMotivacionais;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;

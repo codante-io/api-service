@@ -11,10 +11,10 @@ return [
             'database' => database_path('database.sqlite'),
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
-        
+
         'frases_motivacionais' => [
             'driver' => 'sqlite',
-            'database' => app_path('APIs/FrasesMotivacionais/db.sqlite'),
+            'database' => database_path('db/frases_motivacionais.sqlite'),
             'foreign_key_constraints' => true,
         ],
         'orders' => [
@@ -22,7 +22,7 @@ return [
             'database' => database_path('db/orders.sqlite'),
             'foreign_key_constraints' => true,
         ],
-        
+
     ],
 
 
@@ -39,7 +39,7 @@ return [
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'redis'),
-            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
+            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_') . '_database_'),
         ],
 
         'default' => [

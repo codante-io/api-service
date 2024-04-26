@@ -1,8 +1,8 @@
 <?php
 
-namespace Database\Seeders;
+namespace Database\Seeders\FrasesMotivacionais;
 
-use App\APIs\FrasesMotivacionais\Quote;
+use App\Models\FrasesMotivacionais\Quote;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -13,7 +13,7 @@ class QuoteSeeder extends Seeder
      */
     public function run(): void
     {
-        $json = file_get_contents(app_path('APIs/FrasesMotivacionais/quotes.json'));
+        $json = file_get_contents(database_path('seeders/FrasesMotivacionais/quotes.json'));
         $data = json_decode($json, true);
 
         // Insert data into the database
@@ -21,6 +21,5 @@ class QuoteSeeder extends Seeder
 
             Quote::create($item);
         }
-
     }
 }

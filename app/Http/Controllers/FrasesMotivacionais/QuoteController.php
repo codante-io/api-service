@@ -1,23 +1,26 @@
 <?php
 
-namespace App\APIs\FrasesMotivacionais;
+namespace App\Http\Controllers\FrasesMotivacionais;
 
 use App\Http\Controllers\Controller;
+use App\Http\Resources\FrasesMotivacionais\QuoteResource;
+use App\Models\FrasesMotivacionais\Quote;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
 
- class QuoteController extends Controller
+class QuoteController extends Controller
 {
-    public function show() {
-        
-        $quotes = Quote::paginate(3);
-        
+    public function show()
+    {
+
+        $quotes = Quote::all();
+
         return QuoteResource::collection($quotes);
-        
     }
 
     // create crud
-    public function create(Request $request) {
+    public function create(Request $request)
+    {
 
         // validate with maxlength
         $request->validate([
@@ -33,7 +36,8 @@ use Illuminate\Support\Facades\Artisan;
         return response()->json($quote);
     }
 
-    public function update(Request $request, $id) {
+    public function update(Request $request, $id)
+    {
         $quote = Quote::find($id);
         $quote->quote = $request->quote;
         $quote->autor = $request->autor;
@@ -41,28 +45,22 @@ use Illuminate\Support\Facades\Artisan;
         return response()->json($quote);
     }
 
-    public function delete($id) {
+    public function delete($id)
+    {
         $quote = Quote::find($id);
         $quote->delete();
         return response()->json(['message' => 'Quote deleted']);
     }
 
-    public function showOne($id) {
+    public function showOne($id)
+    {
         $quote = Quote::find($id);
         return new QuoteResource($quote);
     }
 
-    public function reset() {
-        Artisan::call('migrate:fresh', [
-            '--path' => 'app/APIs/FrasesMotivacionais/migrations',
-            '--database' => 'frases_motivacionais',
-        ]);
-
-        Artisan::call('db:seed', [
-            '--class' => 'QuoteSeeder',
-            '--database' => 'frases_motivacionais',
-        ]);
-
+    public function reset()
+    {
+        Artisan::call('api:frases-motivacionais:reset');
         return response()->json(['message' => 'Database reset']);
     }
 }

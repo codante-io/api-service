@@ -1,12 +1,13 @@
 <?php
 
-use App\APIs\FrasesMotivacionais\QuoteController;
+use App\Http\Controllers\FrasesMotivacionais\QuoteController;
 use App\Http\Controllers\Orders\OrderController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 
-Route::middleware(['throttle:api'])->prefix('frases-motivacionais')->group(function () {
+
+Route::middleware(['throttle:api'])->prefix('frases-api')->group(function () {
     Route::get('/frases', [QuoteController::class, 'show']);
     Route::post('/frases', [QuoteController::class, 'create']);
     Route::put('/frases/{id}', [QuoteController::class, 'update']);
@@ -15,7 +16,7 @@ Route::middleware(['throttle:api'])->prefix('frases-motivacionais')->group(funct
     Route::get('/reset', [QuoteController::class, 'reset']);
 });
 
-Route::middleware(['throttle:api'])->prefix('orders')->group(function () {
+Route::middleware(['throttle:api'])->prefix('orders-api')->group(function () {
     Route::get('/orders', [OrderController::class, 'index']);
     Route::post('/orders', [OrderController::class, 'store']);
     Route::put('/orders/{id}', [OrderController::class, 'update']);
