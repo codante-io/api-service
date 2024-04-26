@@ -12,6 +12,12 @@ add('shared_dirs', []);
 add('writable_dirs', []);
 set("keep_releases", 1);
 
+// Tasks
+// run artisan command
+task('artisan:api:orders:reset', function () {
+    run('{{bin/php}} {{release_path}}/artisan api:orders:reset');
+})->desc('Reset orders');
+
 
 // Hosts
 
