@@ -18,7 +18,7 @@ class ResetOrders extends Command
      *
      * @var string
      */
-    protected $description = 'Reseta';
+    protected $description = 'Reseta database de pedidos';
 
     /**
      * Execute the console command.

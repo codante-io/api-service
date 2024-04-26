@@ -56,11 +56,6 @@ class OrderController extends Controller
     }
 
     public function reset() {
-        // create DB if not exists
-        if (!file_exists(database_path('orders.sqlite'))) {
-            touch(database_path('orders.sqlite'));
-        }
-        
         // reset orders
         Artisan::call('migrate:fresh', [
             '--path' => 'database/migrations/orders',
@@ -72,6 +67,5 @@ class OrderController extends Controller
         ]);
 
         return response()->json(['message' => 'Database reset']);
-
     }
 }
