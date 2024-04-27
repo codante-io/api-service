@@ -24,6 +24,8 @@ class OrderController extends Controller
             'status' => 'in:pending,completed',
             // Busca textual no nome
             'search' => 'string',
+            // Ordena por valor
+            'order' => 'in:asc,desc',
         ]);
 
         // handle status filter
@@ -34,6 +36,11 @@ class OrderController extends Controller
         // handle search filter
         if (request()->has('search')) {
             $orders->whereRaw('LOWER(`customer_name`) LIKE ?', ['%'.strtolower(request('search')).'%']);
+        }
+
+        // handle sorting
+        if (request()->has('order')) {
+            $orders->orderBy('amount_in_cents', request('order', 'asc'));
         }
 
         $orders = $orders->paginate(10);
