@@ -18,7 +18,7 @@
     },
     "require-dev": {
         "deployer/deployer": "^7.4",
-        "laravel/pint": "^1.13",
+        "laravel/pint": "^1.15",
         "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.0",

@@ -25,14 +25,14 @@ class QuoteController extends Controller
         // validate with maxlength
         $request->validate([
             'quote' => 'required|max:1000',
-            'author' => 'required|max:255'
+            'author' => 'required|max:255',
         ]);
-
 
         $quote = new Quote();
         $quote->quote = $request->quote;
         $quote->author = $request->author;
         $quote->save();
+
         return response()->json($quote);
     }
 
@@ -42,6 +42,7 @@ class QuoteController extends Controller
         $quote->quote = $request->quote;
         $quote->autor = $request->autor;
         $quote->save();
+
         return response()->json($quote);
     }
 
@@ -49,18 +50,21 @@ class QuoteController extends Controller
     {
         $quote = Quote::find($id);
         $quote->delete();
+
         return response()->json(['message' => 'Quote deleted']);
     }
 
     public function showOne($id)
     {
         $quote = Quote::findOrFail($id)->json();
+
         return new QuoteResource($quote);
     }
 
     public function reset()
     {
         Artisan::call('api:frases-motivacionais:reset');
+
         return response()->json(['message' => 'Database reset']);
     }
 }

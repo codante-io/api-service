@@ -3,7 +3,6 @@
 namespace Database\Seeders\FrasesMotivacionais;
 
 use App\Models\FrasesMotivacionais\Quote;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class QuoteSeeder extends Seeder

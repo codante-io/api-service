@@ -25,13 +25,10 @@ return [
 
     ],
 
-
-
     'migrations' => [
         'table' => 'migrations',
         'update_date_on_publish' => true,
     ],
-
 
     'redis' => [
 
@@ -39,7 +36,7 @@ return [
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'redis'),
-            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'cdnt_apis_'), '_') . '_database_'),
+            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'cdnt_apis_'), '_').'_database_'),
         ],
 
         'default' => [

@@ -4,12 +4,10 @@ namespace App\Http\Controllers\Orders;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Orders\StoreOrderRequest;
-use App\Http\Requests\Orders\UpdateOrderRequest;
 use App\Http\Resources\Order\OrderResource;
 use App\Models\Orders\Order;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\Validator;
 
 class OrderController extends Controller
 {
@@ -35,13 +33,13 @@ class OrderController extends Controller
 
         // handle search filter
         if (request()->has('search')) {
-            $orders->whereRaw('LOWER(`customer_name`) LIKE ?', ['%' . strtolower(request('search')) . '%']);
+            $orders->whereRaw('LOWER(`customer_name`) LIKE ?', ['%'.strtolower(request('search')).'%']);
         }
 
         $orders = $orders->paginate(10);
+
         return OrderResource::collection($orders);
     }
-
 
     /**
      * Store a newly created resource in storage.
@@ -50,6 +48,7 @@ class OrderController extends Controller
     {
         // create order
         $order = Order::create($request->all());
+
         return new OrderResource($order);
 
         //
@@ -63,7 +62,6 @@ class OrderController extends Controller
         return new OrderResource($order);
     }
 
-
     /**
      * Remove the specified resource from storage.
      */
@@ -76,6 +74,7 @@ class OrderController extends Controller
     public function reset()
     {
         Artisan::call('api:orders-api:reset');
+
         return response()->json(['message' => 'Database reset']);
     }
 }

@@ -10,7 +10,6 @@ use Illuminate\Support\Str;
  */
 class OrderFactory extends Factory
 {
-
     public function definition(): array
     {
 
@@ -18,11 +17,11 @@ class OrderFactory extends Factory
         $lastName = $this->faker->lastName();
 
         return [
-            'customer_name' => $firstName . ' ' . $lastName,
-            'customer_email' => Str::lower($firstName . '.' . $lastName . '@' . $this->faker->safeEmailDomain()),
+            'customer_name' => $firstName.' '.$lastName,
+            'customer_email' => Str::lower($firstName.'.'.$lastName.'@'.$this->faker->safeEmailDomain()),
             'status' => $this->faker->randomElement(['pending', 'completed']),
             'order_date' => $this->faker->date(),
-            'amount_in_cents' => $this->faker->numberBetween(100, 10000)
+            'amount_in_cents' => $this->faker->numberBetween(100, 10000),
         ];
     }
 }

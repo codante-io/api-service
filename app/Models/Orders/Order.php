@@ -10,5 +10,6 @@ class Order extends Model
     use HasFactory;
 
     protected $connection = 'orders';
+
     protected $guarded = ['id'];
 }

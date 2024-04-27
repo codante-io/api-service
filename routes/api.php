@@ -2,10 +2,7 @@
 
 use App\Http\Controllers\FrasesMotivacionais\QuoteController;
 use App\Http\Controllers\Orders\OrderController;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
-
 
 Route::middleware(['throttle:api'])->prefix('frases-api')->group(function () {
     Route::get('/frases', [QuoteController::class, 'show']);

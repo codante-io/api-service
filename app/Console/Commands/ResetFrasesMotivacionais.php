@@ -25,7 +25,7 @@ class ResetFrasesMotivacionais extends Command
      */
     public function handle()
     {
-        if (!file_exists(database_path('db/frases_motivacionais.sqlite'))) {
+        if (! file_exists(database_path('db/frases_motivacionais.sqlite'))) {
             touch(database_path('db/frases_motivacionais.sqlite'));
         }
 

@@ -25,7 +25,7 @@ class ResetOrders extends Command
      */
     public function handle()
     {
-        if (!file_exists(database_path('db/orders.sqlite'))) {
+        if (! file_exists(database_path('db/orders.sqlite'))) {
             touch(database_path('db/orders.sqlite'));
         }
         $this->call('migrate:fresh', [
