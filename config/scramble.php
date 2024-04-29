@@ -45,7 +45,7 @@ return [
         /*
          * Hide the `Try It` feature. Enabled by default.
          */
-        'hide_try_it' => true,
+        'hide_try_it' => false,
 
         /*
          * URL to an image that displays as a small square logo next to the title, above the table of contents.
