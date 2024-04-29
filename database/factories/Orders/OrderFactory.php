@@ -20,7 +20,7 @@ class OrderFactory extends Factory
             'customer_name' => $firstName.' '.$lastName,
             'customer_email' => Str::lower($firstName.'.'.$lastName.'@'.$this->faker->safeEmailDomain()),
             'status' => $this->faker->randomElement(['pending', 'completed']),
-            'order_date' => $this->faker->date(),
+            'order_date' => $this->faker->dateTimeThisDecade()->format('Y-m-d'),
             'amount_in_cents' => $this->faker->numberBetween(100, 10000),
         ];
     }

@@ -25,7 +25,7 @@ class OrderController extends Controller
             // Busca textual no nome
             'search' => 'string',
             // Ordena por valor
-            'order' => 'in:asc,desc',
+            'sort' => 'string',
         ]);
 
         // handle status filter
@@ -38,9 +38,17 @@ class OrderController extends Controller
             $orders->whereRaw('LOWER(`customer_name`) LIKE ?', ['%'.strtolower(request('search')).'%']);
         }
 
-        // handle sorting
-        if (request()->has('order')) {
-            $orders->orderBy('amount_in_cents', request('order', 'asc'));
+        // handle sorting for all fields (plus and minus sign in front of field name)
+        if (request()->has('sort')) {
+            // if sort has a minus sign, we sort in descending order
+            if (request('sort')[0] === '-') {
+                $orders->orderBy(substr(request('sort'), 1), 'desc');
+            } else {
+                $orders->orderBy(request('sort'), 'asc');
+            }
+        } else {
+            // default sorting
+            $orders->orderBy('order_date', 'asc');
         }
 
         $orders = $orders->paginate(10);
