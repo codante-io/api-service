@@ -53,6 +53,7 @@ class OrderController extends Controller
 
         $orders = $orders->paginate(10);
 
+        // return cached
         return OrderResource::collection($orders);
     }
 
@@ -65,8 +66,6 @@ class OrderController extends Controller
         $order = Order::create($request->all());
 
         return new OrderResource($order);
-
-        //
     }
 
     /**

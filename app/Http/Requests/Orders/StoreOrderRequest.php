@@ -11,7 +11,7 @@ class StoreOrderRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -25,6 +25,7 @@ class StoreOrderRequest extends FormRequest
             'customer_name' => ['required', 'string', 'max:255'],
             'customer_email' => ['required', 'email', 'max:255'],
             'status' => ['required', 'string', 'in:pending,completed'],
+            'order_date' => ['required', 'date'],
             'amount_in_cents' => ['required', 'integer'],
         ];
     }
