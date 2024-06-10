@@ -22,6 +22,11 @@ return [
             'database' => database_path('db/orders.sqlite'),
             'foreign_key_constraints' => true,
         ],
+        'job_board' => [
+            'driver' => 'sqlite',
+            'database' => database_path('db/job_board.sqlite'),
+            'foreign_key_constraints' => true,
+        ],
 
     ],
 
