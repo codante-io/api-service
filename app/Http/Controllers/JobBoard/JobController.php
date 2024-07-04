@@ -31,7 +31,7 @@ class JobController extends Controller
      */
     public function show(Job $job)
     {
-        //
+        return new JobResource($job);
     }
 
     /**
@@ -39,7 +39,10 @@ class JobController extends Controller
      */
     public function update(UpdateJobRequest $request, Job $job)
     {
-        //
+
+        $job->update($request->all());
+
+        return new JobResource($job);
     }
 
     /**
@@ -47,6 +50,6 @@ class JobController extends Controller
      */
     public function destroy(Job $job)
     {
-        //
+        $job->delete();
     }
 }

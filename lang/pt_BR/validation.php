@@ -188,7 +188,9 @@ return [
         'name' => 'nome',
         'password' => 'senha',
         'password_confirm' => 'confirmação de senha',
+        'password_confirmation' => 'confirmação de senha',
         'message' => 'mensagem',
+        'terms' => 'termos de uso (terms)'
     ],
 
 ];
