@@ -15,13 +15,16 @@ class RegisterUserController extends Controller
             'email' => 'required|email|max:255',
             'password' => 'required|min:8|max:255',
             'password_confirmation' => 'required|min:8|max:255',
-            'terms' => ['required'],
+            'terms' => ['required',  'boolean'],
             'phone' => 'required|max:20',
             'cpf' => ['required', 'max:14', 'regex:/\d{3}\.\d{3}\.\d{3}-\d{2}/', new ValidCpf()],
             'zipcode' => 'required|max:9|regex:/\d{5}-\d{3}/',
             'address' => 'required|max:255',
             'city' => 'required|max:255',
         ]);
+
+        // Wait 1 to 3 seconds to simulate a request to an external service
+        sleep(rand(1, 3));
 
         return response()->json(["message" => "User registered.", "user" => $request->all()]);
     }
