@@ -67,9 +67,12 @@ class EventFetcher extends Controller
                 }
 
                 foreach ($event['competitors'] as $competitor) {
-                    $createdEvent->competitors()->updateOrCreate([
-                        'original_id' => $competitor['code']],
+                    $createdEvent->competitors()->updateOrCreate(
                         [
+                            'event_original_competitor_original' => $event['id'].$competitor['code'],
+                        ],
+                        [
+                            'original_id' => $competitor['code'],
                             'country_id' => $competitor['noc'] ?? '',
                             'name' => $competitor['name'],
                             'position' => $competitor['order'],
@@ -85,5 +88,58 @@ class EventFetcher extends Controller
         }
 
         return 'Events fetched';
+    }
+
+    public function fetchFromAllDates()
+    {
+        $eventsData = Http::withHeaders(['user-agent' => 'Insomnia 9.1'])->get('https://sph-s-api.olympics.com/summer/schedules/api/ENG/schedule/');
+
+        $events = $eventsData['units'];
+
+        foreach ($events as $event) {
+            $createdEvent = Event::updateOrCreate([
+                'original_id' => $event['id'],
+
+            ], [
+                'original_id' => $event['id'],
+                'day' => $event['olympicDay'],
+                'discipline_id' => $event['disciplineCode'],
+                'discipline_name' => $event['disciplineName'],
+                'venue_id' => $event['venue'] ?? '',
+                'venue_name' => $event['venueDescription'] ?? '',
+                'event_name' => $event['eventName'],
+                'event_unit_name' => $event['eventUnitName'],
+                'event_name_portuguese' => '',
+                'start_date' => $event['startDate'],
+                'end_date' => $event['endDate'] ?? '',
+                'status' => $event['statusDescription'] ?? '',
+                'is_medal_event' => $event['medalFlag'] ?? false,
+                'is_live' => $event['liveFlag'] ?? false,
+            ]);
+
+            if (! isset($event['competitors'])) {
+                continue;
+            }
+
+            foreach ($event['competitors'] as $competitor) {
+                $createdEvent->competitors()->updateOrCreate(
+                    [
+                        'event_original_competitor_original' => $event['id'].$competitor['code'],
+                    ],
+                    [
+                        'original_id' => $competitor['code'],
+                        'country_id' => $competitor['noc'] ?? '',
+                        'name' => $competitor['name'],
+                        'position' => $competitor['order'],
+                        'result_position' => $competitor['results']['position'] ?? '',
+                        'result_winnerLoserTie' => $competitor['results']['winnerLoserTie'] ?? '',
+                        'result_mark' => $competitor['results']['mark'] ?? '',
+                    ]
+                );
+            }
+
+        }
+
+        return response()->json(['message' => 'Events Fetched']);
     }
 }

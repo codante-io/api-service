@@ -21,6 +21,12 @@ class EventController extends Controller
         $events = $eventFetcher->fetchNewEvents();
     }
 
+    public function fetchFromAllDates()
+    {
+        $eventFetcher = new EventFetcher();
+        $events = $eventFetcher->fetchFromAllDates();
+    }
+
     public function show(Event $event)
     {
         return new EventResource($event);

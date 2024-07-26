@@ -44,6 +44,7 @@ Route::prefix('api')->group(function () {
 Route::middleware(['throttle:api'])->prefix('olympic-games')->group(function () {
     Route::get('/', [EventController::class, 'home']);
     Route::get('/fetch-events', [EventController::class, 'fetchNewEvents']);
+    Route::get('/fetch-events1', [EventController::class, 'fetchFromAllDates']);
     Route::get('/events/{event}', [EventController::class, 'show']);
     Route::get('/events', [EventController::class, 'index']);
     Route::get('/venues', [EventController::class, 'indexVenues']);
