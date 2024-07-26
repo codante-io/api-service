@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\FrasesMotivacionais\QuoteController;
 use App\Http\Controllers\JobBoard\JobController;
+use App\Http\Controllers\OlympicGames\EventController;
 use App\Http\Controllers\Orders\OrderController;
 use App\Http\Controllers\RegisterUser\RegisterUserController;
 use Illuminate\Support\Facades\Route;
@@ -36,3 +37,11 @@ Route::middleware(['throttle:api'])->prefix('register-user')->group(function () 
     Route::post('/register', [RegisterUserController::class, 'validate']);
 });
 
+Route::middleware(['throttle:api'])->prefix('olympic-games')->group(function () {
+    Route::get('/fetch-events', [EventController::class, 'fetchNewEvents']);
+    Route::get('/events/{event}', [EventController::class, 'show']);
+    Route::get('/events', [EventController::class, 'index']);
+    Route::get('/venues', [EventController::class, 'indexVenues']);
+    Route::get('/disciplines', [EventController::class, 'indexDisciplines']);
+    Route::get('/countries', [EventController::class, 'indexCountries']);
+});
