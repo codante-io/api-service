@@ -18,7 +18,7 @@ set('keep_releases', 1);
 task('api-commands', function () {
     run('{{bin/php}} {{release_path}}/artisan api:orders-api:reset');
     run('{{bin/php}} {{release_path}}/artisan api:frases-motivacionais:reset');
-    run('{{bin/php}} {{release_path}}/artisan migrate --database="olympic_games" --path="database/migrations/olympic_games"');
+    run('{{bin/php}} {{release_path}}/artisan migrate --database="olympic_games" --path="database/migrations/olympic_games" --force');
 })->desc('Reset orders');
 
 // Hosts
