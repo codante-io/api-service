@@ -18,7 +18,7 @@
 5. Crie o Resource
 6. Crie a Factory
 7. Crie o Seeder
-8. Crie um comando de Reset
+8. Crie um comando de Reset (se necessário)
    
 ### Configuração
 

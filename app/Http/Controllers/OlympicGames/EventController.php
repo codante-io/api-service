@@ -1,0 +1,84 @@
+<?php
+
+namespace App\Http\Controllers\OlympicGames;
+
+use App\Http\Controllers\Controller;
+use App\Http\Resources\OlympicGames\CountryResource;
+use App\Http\Resources\OlympicGames\DisciplineResource;
+use App\Http\Resources\OlympicGames\EventResource;
+use App\Http\Resources\OlympicGames\VenueResource;
+use App\Models\OlympicGames\Country;
+use App\Models\OlympicGames\Discipline;
+use App\Models\OlympicGames\Event;
+use App\Models\OlympicGames\Venue;
+use Illuminate\Http\Request;
+
+class EventController extends Controller
+{
+    public function fetchNewEvents()
+    {
+        $eventFetcher = new EventFetcher();
+        $events = $eventFetcher->fetchNewEvents();
+    }
+
+    public function show(Event $event)
+    {
+        return new EventResource($event);
+    }
+
+    public function index(Request $request)
+    {
+
+        $countryFilter = $request->query('country');
+        $disciplineFilter = $request->query('discipline');
+        $venueFilter = $request->query('venue');
+        $dateFilter = $request->query('date');
+        $competitorNameFilter = $request->query('competitor');
+
+        $query = Event::query();
+
+        if ($countryFilter) {
+            $query->whereHas('competitors', function ($query) use ($countryFilter) {
+                $query->where('country_id', $countryFilter);
+            });
+        }
+
+        if ($disciplineFilter) {
+            $query->where('discipline_id', $disciplineFilter);
+        }
+
+        if ($venueFilter) {
+            $query->where('venue_id', $venueFilter);
+        }
+
+        if ($dateFilter) {
+            $query->where('day', $dateFilter);
+        }
+
+        if ($competitorNameFilter) {
+            $query->whereHas('competitors', function ($query) use ($competitorNameFilter) {
+                $query->where('name', 'like', "%$competitorNameFilter%");
+            });
+        }
+
+        $events = $query->with(['discipline', 'competitors', 'venue'])->paginate(10);
+
+        return EventResource::collection($events);
+    }
+
+    public function indexVenues()
+    {
+        return VenueResource::collection(Venue::all());
+    }
+
+    public function indexCountries()
+    {
+        return CountryResource::collection(Country::paginate(20));
+    }
+
+    public function indexDisciplines()
+    {
+        // return Discipline::all();
+        return DisciplineResource::collection(Discipline::all());
+    }
+}
