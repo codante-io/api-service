@@ -9,7 +9,7 @@ require 'recipe/laravel.php';
 set('repository', 'git@github.com:codante-io/api-service.git');
 
 add('shared_files', []);
-add('shared_dirs', []);
+add('shared_dirs', ['database/db']);
 add('writable_dirs', ['database/db']);
 set('keep_releases', 1);
 
@@ -18,6 +18,7 @@ set('keep_releases', 1);
 task('api-commands', function () {
     run('{{bin/php}} {{release_path}}/artisan api:orders-api:reset');
     run('{{bin/php}} {{release_path}}/artisan api:frases-motivacionais:reset');
+    runt('{{bin/php}} {{release_path}}/artisan migrate --database="olympic_games" --path="database/migrations/olympic_games"');
 })->desc('Reset orders');
 
 // Hosts
