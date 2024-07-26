@@ -76,6 +76,39 @@ class EventController extends Controller
         return CountryResource::collection(Country::paginate(20));
     }
 
+    public function home()
+    {
+        return [
+            'message' => 'Welcome to the Olympic Games API from codante.io. Have fun!',
+            'endpoints' => [
+                'events' => [
+                    'url' => '/events',
+                    'description' => 'List all events',
+                    'query_parameters' => [
+                        'country' => 'Filter by country',
+                        'discipline' => 'Filter by discipline',
+                        'venue' => 'Filter by venue',
+                        'date' => 'Filter by date',
+                        'competitor' => 'Filter by competitor name',
+                    ],
+                ],
+                'countries' => [
+                    'url' => '/countries',
+                    'description' => 'List all countries',
+                ],
+                'venues' => [
+                    'url' => '/venues',
+                    'description' => 'List all venues',
+                ],
+                'disciplines' => [
+                    'url' => '/disciplines',
+                    'description' => 'List all disciplines (sports)',
+                ],
+                'medals' => 'To be defined.',
+            ],
+        ];
+    }
+
     public function indexDisciplines()
     {
         // return Discipline::all();
