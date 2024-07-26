@@ -40,6 +40,7 @@ class EventController extends Controller
         $venueFilter = $request->query('venue');
         $dateFilter = $request->query('date');
         $competitorNameFilter = $request->query('competitor');
+        $isLive = $request->query('live');
 
         $query = Event::query();
 
@@ -65,6 +66,10 @@ class EventController extends Controller
             $query->whereHas('competitors', function ($query) use ($competitorNameFilter) {
                 $query->where('name', 'like', "%$competitorNameFilter%");
             });
+        }
+
+        if ($isLive) {
+            $query->where('is_live', true);
         }
 
         $events = $query->with(['discipline', 'competitors', 'venue'])->paginate(10);
