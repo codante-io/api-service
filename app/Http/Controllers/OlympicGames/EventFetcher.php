@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\OlympicGames;
 
 use App\Http\Controllers\Controller;
+use App\Models\OlympicGames\Country;
 use App\Models\OlympicGames\Event;
 use Illuminate\Support\Facades\Http;
 
@@ -15,11 +16,11 @@ class EventFetcher extends Controller
         // from 2024-07-24 to 2024-08-11
 
         $arrayOfDates = [
-            '2024-07-24',
-            '2024-07-25',
-            '2024-07-26',
-            '2024-07-27',
-            '2024-07-28',
+            // '2024-07-24',
+            // '2024-07-25',
+            // '2024-07-26',
+            // '2024-07-27',
+            // '2024-07-28',
             '2024-07-29',
             '2024-07-30',
             '2024-07-31',
@@ -87,7 +88,8 @@ class EventFetcher extends Controller
             usleep(300);
         }
 
-        return 'Events fetched';
+        // send discord message
+
     }
 
     public function fetchFromAllDates()
@@ -141,5 +143,41 @@ class EventFetcher extends Controller
         }
 
         return response()->json(['message' => 'Events Fetched']);
+    }
+
+    public function fetchMedals()
+    {
+        $medals = Http::withHeaders(['user-agent' => 'Insomnia 9.1'])->get('https://sph-c-api.olympics.com/summer/competition/api/ENG/medals')->json();
+
+        $medalsTable = $medals['medalStandings']['medalsTable'];
+
+        foreach ($medalsTable as $medalTableItem) {
+            $country = Country::find($medalTableItem['organisation']);
+
+            // total medals - filter item of array where Type = Total
+            $medals = collect($medalTableItem['medalsNumber'])->filter(function ($item, $key) {
+                return $item['type'] === 'Total';
+            })->first();
+
+            $gold = $medals['gold'] ?? 0;
+            $silver = $medals['silver'] ?? 0;
+            $bronze = $medals['bronze'] ?? 0;
+            $total = $medals['total'] ?? 0;
+            $rank = $medalTableItem['rank'] ?? 0;
+            $rankTotalMedals = $medalTableItem['rankTotal'] ?? 0;
+
+            if (! $country) {
+                continue;
+            }
+
+            $country->update([
+                'gold_medals' => $gold,
+                'silver_medals' => $silver,
+                'bronze_medals' => $bronze,
+                'total_medals' => $total,
+                'rank' => $rank,
+                'rank_total_medals' => $rankTotalMedals,
+            ]);
+        }
     }
 }

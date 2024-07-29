@@ -27,6 +27,12 @@ class EventController extends Controller
         $events = $eventFetcher->fetchFromAllDates();
     }
 
+    public function fetchMedals()
+    {
+        $eventFetcher = new EventFetcher();
+        $events = $eventFetcher->fetchMedals();
+    }
+
     public function show(Event $event)
     {
         return new EventResource($event);
@@ -82,9 +88,10 @@ class EventController extends Controller
         return VenueResource::collection(Venue::all());
     }
 
-    public function indexCountries()
+    public function indexCountries(Request $request)
     {
-        return CountryResource::collection(Country::paginate(20));
+        // order by rank (1 first, 2 secnod, etc) but zeros should be last.
+        return CountryResource::collection(Country::orderByRaw('rank = 0, rank')->paginate(50));
     }
 
     public function home()

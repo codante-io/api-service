@@ -14,4 +14,6 @@ class Country extends Model
     public $incrementing = false;
 
     public $keyType = 'string';
+
+    protected $guarded = ['id'];
 }

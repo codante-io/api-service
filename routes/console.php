@@ -10,4 +10,5 @@ Schedule::command('api:job-board:reset')->hourly();
 Schedule::call(function () {
     $eventFetcher = new EventFetcher();
     $eventFetcher->fetchNewEvents();
+    $eventFetcher->fetchMedals();
 })->everyFiveMinutes();
