@@ -25,7 +25,7 @@ class EventResource extends JsonResource
             'id' => $this->id,
             'day' => $this->day,
             'discipline_name' => $this->discipline_name,
-            'discipline_pictogram' => $this->discipline->pictogram_url,
+            'discipline_pictogram' => $this->discipline->pictogram_url ?? '',
             'name' => $this->name,
             'venue_name' => $this->venue_name,
             'event_name' => $this->event_name,
