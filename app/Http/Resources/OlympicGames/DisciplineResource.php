@@ -4,6 +4,7 @@ namespace App\Http\Resources\OlympicGames;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
+use Illuminate\Support\Str;
 
 class DisciplineResource extends JsonResource
 {
@@ -19,6 +20,7 @@ class DisciplineResource extends JsonResource
             'id' => $this->id,
             'name' => $this->name,
             'pictogram_url' => $this->pictogram_url,
+            'pictogram_url_dark' => Str::replace('.avif', '-dark.avif', $this->pictogram_url),
         ];
     }
 }
