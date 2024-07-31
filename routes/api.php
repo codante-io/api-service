@@ -51,4 +51,4 @@ Route::middleware(['throttle:api'])->prefix('olympic-games')->group(function () 
     Route::get('/venues', [EventController::class, 'indexVenues']);
     Route::get('/disciplines', [EventController::class, 'indexDisciplines']);
     Route::get('/countries', [EventController::class, 'indexCountries']);
-});
+})->middleware('cache.headers:public;max_age=120;etag');
