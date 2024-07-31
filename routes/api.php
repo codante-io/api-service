@@ -46,9 +46,9 @@ Route::middleware(['throttle:api'])->prefix('olympic-games')->group(function () 
     Route::get('/fetch-events', [EventController::class, 'fetchNewEvents']);
     Route::get('/fetch-events1', [EventController::class, 'fetchFromAllDates']);
     Route::get('fetch-medals', [EventController::class, 'fetchMedals']);
-    Route::get('/events/{event}', [EventController::class, 'show']);
+    Route::get('/events/{event}', [EventController::class, 'show'])->middleware('cache.headers:public;max_age=120;etag');
     Route::get('/events', [EventController::class, 'index'])->middleware('cache.headers:public;max_age=120;etag');
-    Route::get('/venues', [EventController::class, 'indexVenues']);
-    Route::get('/disciplines', [EventController::class, 'indexDisciplines']);
-    Route::get('/countries', [EventController::class, 'indexCountries']);
-})->middleware('cache.headers:public;max_age=120;etag');
+    Route::get('/venues', [EventController::class, 'indexVenues'])->middleware('cache.headers:public;max_age=14400;etag');
+    Route::get('/disciplines', [EventController::class, 'indexDisciplines'])->middleware('cache.headers:public;max_age=14400;etag');
+    Route::get('/countries', [EventController::class, 'indexCountries'])->middleware('cache.headers:public;max_age=120;etag');
+});
