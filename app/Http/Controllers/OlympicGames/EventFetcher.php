@@ -2,12 +2,11 @@
 
 namespace App\Http\Controllers\OlympicGames;
 
-use App\Http\Controllers\Controller;
 use App\Models\OlympicGames\Country;
 use App\Models\OlympicGames\Event;
 use Illuminate\Support\Facades\Http;
 
-class EventFetcher extends Controller
+class EventFetcher
 {
     public function fetchNewEvents()
     {
@@ -61,6 +60,7 @@ class EventFetcher extends Controller
                     'status' => $event['statusDescription'] ?? '',
                     'is_medal_event' => $event['medalFlag'] ?? false,
                     'is_live' => $event['liveFlag'] ?? false,
+                    'gender_code' => $event['genderCode'] ?? '',
                 ]);
 
                 if (! isset($event['competitors'])) {
@@ -99,6 +99,7 @@ class EventFetcher extends Controller
         $events = $eventsData['units'];
 
         foreach ($events as $event) {
+
             $createdEvent = Event::updateOrCreate([
                 'original_id' => $event['id'],
 
@@ -117,6 +118,7 @@ class EventFetcher extends Controller
                 'status' => $event['statusDescription'] ?? '',
                 'is_medal_event' => $event['medalFlag'] ?? false,
                 'is_live' => $event['liveFlag'] ?? false,
+                'gender_code' => $event['genderCode'] ?? '',
             ]);
 
             if (! isset($event['competitors'])) {

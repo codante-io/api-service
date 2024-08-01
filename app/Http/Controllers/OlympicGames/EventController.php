@@ -47,6 +47,7 @@ class EventController extends Controller
         $dateFilter = $request->query('date');
         $competitorNameFilter = $request->query('competitor');
         $isLive = $request->query('live');
+        $genderCode = $request->query('gender');
 
         $query = Event::query();
 
@@ -78,6 +79,10 @@ class EventController extends Controller
             $query->where('is_live', true);
         }
 
+        if ($genderCode) {
+            $query->where('gender_code', $genderCode);
+        }
+
         $events = $query->with(['discipline', 'competitors', 'venue'])->paginate(10);
 
         return EventResource::collection($events);
@@ -100,7 +105,7 @@ class EventController extends Controller
             'message' => 'Welcome to the Olympic Games API from codante.io. Have fun!',
             'endpoints' => [
                 'events' => [
-                    'url' => '/events',
+                    'url' => '/olympic-games/events',
                     'description' => 'List all events',
                     'query_parameters' => [
                         'country' => 'Filter by country',
@@ -111,15 +116,15 @@ class EventController extends Controller
                     ],
                 ],
                 'countries' => [
-                    'url' => '/countries',
+                    'url' => '/olympic-games/countries',
                     'description' => 'List all countries',
                 ],
                 'venues' => [
-                    'url' => '/venues',
+                    'url' => '/olympic-games/venues',
                     'description' => 'List all venues',
                 ],
                 'disciplines' => [
-                    'url' => '/disciplines',
+                    'url' => '/olympic-games/disciplines',
                     'description' => 'List all disciplines (sports)',
                 ],
                 'medals' => 'To be defined.',
