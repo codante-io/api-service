@@ -35,6 +35,7 @@ class EventResource extends JsonResource
             'status' => $this->status,
             'is_medal_event' => $this->is_medal_event,
             'is_live' => $this->is_live,
+            'gender_code' => $this->gender_code,
             'competitors' => $this->competitors->map(function ($competitor) {
                 return [
                     'country_id' => $competitor->country->name ?? '',
