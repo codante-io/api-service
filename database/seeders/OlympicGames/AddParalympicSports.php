@@ -46,7 +46,7 @@ class AddParalympicSports extends Seeder
             'id' => "P-" . $code,
             'name' => $name,
             'is_paralympic' => true,
-            'pictogram_url' => "https://assets.codante.io/codante-apis/olympic-games/pictograms/$code.avif",
+            'pictogram_url' => "https://assets.codante.io/codante-apis/olympic-games/pictograms/P-$code.avif",
         ]);
 
 
