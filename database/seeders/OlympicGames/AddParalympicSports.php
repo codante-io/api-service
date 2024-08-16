@@ -43,7 +43,7 @@ class AddParalympicSports extends Seeder
     
     foreach($paralympicSports as $code => $name) {
         Discipline::create([
-            'code' => $code,
+            'id' => $code,
             'name' => $name,
             'is_paralympic' => true,
             'pictogram_url' => "https://assets.codante.io/codante-apis/olympic-games/pictograms/$code.avif",
