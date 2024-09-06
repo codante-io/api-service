@@ -34,7 +34,7 @@ return [
         ],
         'senator_expenses' => [
             'driver' => 'mysql',
-            'database' => 'codante-apis-senator-expenses',
+            'database' => 'apis-senator-expenses',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
             'username' => env('DB_USERNAME'),
