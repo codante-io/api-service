@@ -12,7 +12,7 @@
 ### Arquivos
 
 1. Crie a DB sqlite na respectiva pasta
-2. Crie o Model
+2. Crie o Model (não esqueça de colocar a connection correta no model)
 3. Crie o Controller
 4. Crie os Requests
 5. Crie o Resource

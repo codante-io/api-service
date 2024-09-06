@@ -32,6 +32,15 @@ return [
             'database' => database_path('db/olympic_games.sqlite'),
             'foreign_key_constraints' => true,
         ],
+        'senator_expenses' => [
+            'driver' => 'mysql',
+            'database' => 'codante-apis-senator-expenses',
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '3306'),
+            'username' => env('DB_USERNAME'),
+            'password' => env('DB_PASSWORD'),
+            'foreign_key_constraints' => true,
+        ],
 
     ],
 

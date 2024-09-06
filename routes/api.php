@@ -5,6 +5,9 @@ use App\Http\Controllers\JobBoard\JobController;
 use App\Http\Controllers\OlympicGames\EventController;
 use App\Http\Controllers\Orders\OrderController;
 use App\Http\Controllers\RegisterUser\RegisterUserController;
+use App\Http\Controllers\SenatorExpenses\ExpenseController;
+use App\Http\Controllers\SenatorExpenses\PartyController;
+use App\Http\Controllers\SenatorExpenses\SenatorController;
 use Illuminate\Support\Facades\Route;
 
 Route::prefix('api')->group(function () {
@@ -51,4 +54,15 @@ Route::middleware(['throttle:api'])->prefix('olympic-games')->group(function () 
     Route::get('/venues', [EventController::class, 'indexVenues'])->middleware('cache.headers:public;max_age=14400;etag');
     Route::get('/disciplines', [EventController::class, 'indexDisciplines'])->middleware('cache.headers:public;max_age=14400;etag');
     Route::get('/countries', [EventController::class, 'indexCountries'])->middleware('cache.headers:public;max_age=120;etag');
+});
+
+Route::middleware(['throttle:api'])->prefix('senator-expenses')->group(function () {
+    Route::get('/', [SenatorController::class, 'home']);
+    Route::get('/senators', [SenatorController::class, 'index']);
+    Route::get('/senators/{id}', [SenatorController::class, 'show']);
+    Route::get('/senators/{id}/expenses', [SenatorController::class, 'expenses']);
+    Route::get('/expenses', [ExpenseController::class, 'index']);
+    Route::get('/parties/{id}/expenses', [ExpenseController::class, 'partyExpenses']);
+    Route::get('/parties', [PartyController::class, 'index']);
+    Route::get('/uf/{uf}/expenses', [ExpenseController::class, 'UFExpenses']);
 });
