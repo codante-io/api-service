@@ -17,6 +17,7 @@
         "fakerphp/faker": "^1.23"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.13",
         "deployer/deployer": "^7.4",
         "laravel/pint": "^1.15",
         "laravel/sail": "^1.26",
