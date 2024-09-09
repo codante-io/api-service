@@ -28,6 +28,9 @@ class SenatorController extends Controller
             $senatorsQuery->where('party', request('party'));
         }
 
+        // order by active
+        $senatorsQuery->orderBy('is_active', 'desc');
+
         $senators = $senatorsQuery->paginate(100);
 
         return SenatorResource::collection($senators);
@@ -55,9 +58,6 @@ class SenatorController extends Controller
         $expensesCount = $expensesQuery->count();
 
         $expenses = $expensesQuery->paginate(100);
-
-        // sum all expenses
-        $total = $expenses->sum('amount');
 
         return new ExpenseCollection($expenses, [
             'meta' => [

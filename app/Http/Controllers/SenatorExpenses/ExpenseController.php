@@ -7,6 +7,7 @@ use App\Http\Resources\SenatorExpenses\ExpenseCollection;
 use App\Http\Resources\SenatorExpenses\ExpenseResource;
 use App\Models\SenatorExpenses\Expense;
 use App\Models\SenatorExpenses\Party;
+use App\Models\SenatorExpenses\Summary;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;
 
@@ -91,5 +92,41 @@ class ExpenseController extends Controller
                 'expenses_count' => $expensesStats['count'],
             ],
         ]);
+    }
+
+    public function summaryByParty()
+    {
+
+        $summary = Summary::where('type', 'party')->get();
+
+        $summary = $summary->map(function ($item) {
+
+            $newItem = [
+                'year' => $item['year'],
+                'data' => $item['summary'],
+            ];
+
+            return $newItem;
+        });
+
+        return response()->json($summary);
+    }
+
+    public function summaryByUF()
+    {
+
+        $summary = Summary::where('type', 'uf')->get();
+
+        $summary = $summary->map(function ($item) {
+
+            $newItem = [
+                'year' => $item['year'],
+                'data' => $item['summary'],
+            ];
+
+            return $newItem;
+        });
+
+        return response()->json($summary);
     }
 }

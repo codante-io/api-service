@@ -65,4 +65,6 @@ Route::middleware(['throttle:api'])->prefix('senator-expenses')->group(function 
     Route::get('/parties/{id}/expenses', [ExpenseController::class, 'partyExpenses']);
     Route::get('/parties', [PartyController::class, 'index']);
     Route::get('/uf/{uf}/expenses', [ExpenseController::class, 'UFExpenses']);
+    Route::get('summary/by-party', [ExpenseController::class, 'summaryByParty']);
+    Route::get('summary/by-uf', [ExpenseController::class, 'summaryByUF']);
 });

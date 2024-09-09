@@ -23,11 +23,8 @@ class ExpenseCollection extends ResourceCollection
         return parent::toArray($request);
     }
 
-    // public function with($request): array
-    // {
-
-    //     return [...$this->meta, 'links' => [
-    //         'self' => 'lala',
-    //     ]];
-    // }
+    public function with($request): array
+    {
+        return $this->meta;
+    }
 }
