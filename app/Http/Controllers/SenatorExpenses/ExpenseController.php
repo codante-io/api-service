@@ -103,7 +103,8 @@ class ExpenseController extends Controller
 
             $newItem = [
                 'year' => $item['year'],
-                'data' => $item['summary'],
+                'data' => collect($item['summary'])->sortByDesc('total_per_senator')->values()->all(),
+
             ];
 
             return $newItem;
@@ -121,7 +122,7 @@ class ExpenseController extends Controller
 
             $newItem = [
                 'year' => $item['year'],
-                'data' => $item['summary'],
+                'data' => collect($item['summary'])->sortByDesc('total')->values()->all(),
             ];
 
             return $newItem;
