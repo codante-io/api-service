@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BrazilFlags\BrazilFlagsController;
 use App\Http\Controllers\FrasesMotivacionais\QuoteController;
 use App\Http\Controllers\JobBoard\JobController;
 use App\Http\Controllers\OlympicGames\EventController;
@@ -67,4 +68,8 @@ Route::middleware(['throttle:api'])->prefix('senator-expenses')->group(function 
     Route::get('/uf/{uf}/expenses', [ExpenseController::class, 'UFExpenses']);
     Route::get('summary/by-party', [ExpenseController::class, 'summaryByParty']);
     Route::get('summary/by-uf', [ExpenseController::class, 'summaryByUF']);
+});
+
+Route::middleware(['throttle:api'])->prefix('bandeiras-dos-estados')->group(function () {
+    Route::get('/', [BrazilFlagsController::class, 'index'])->middleware('cache.headers:public;max_age=14400;etag');
 });
