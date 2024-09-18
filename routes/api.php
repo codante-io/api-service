@@ -59,17 +59,17 @@ Route::middleware(['throttle:api'])->prefix('olympic-games')->group(function () 
 
 Route::middleware(['throttle:api'])->prefix('senator-expenses')->group(function () {
     Route::get('/', [SenatorController::class, 'home']);
-    Route::get('/senators', [SenatorController::class, 'index'])->middleware('cache.headers:public;max_age=14400;etag');
-    Route::get('/senators/{id}', [SenatorController::class, 'show'])->middleware('cache.headers:public;max_age=14400;etag');
-    Route::get('/senators/{id}/expenses', [SenatorController::class, 'expenses'])->middleware('cache.headers:public;max_age=14400;etag');
-    Route::get('/expenses', [ExpenseController::class, 'index'])->middleware('cache.headers:public;max_age=14400;etag');
-    Route::get('/parties/{id}/expenses', [ExpenseController::class, 'partyExpenses'])->middleware('cache.headers:public;max_age=14400;etag');
-    Route::get('/parties', [PartyController::class, 'index'])->middleware('cache.headers:public;max_age=14400;etag');
-    Route::get('/uf/{uf}/expenses', [ExpenseController::class, 'UFExpenses'])->middleware('cache.headers:public;max_age=14400;etag');
-    Route::get('summary/by-party', [ExpenseController::class, 'summaryByParty'])->middleware('cache.headers:public;max_age=14400;etag');
-    Route::get('summary/by-uf', [ExpenseController::class, 'summaryByUF'])->middleware('cache.headers:public;max_age=14400;etag');
+    Route::get('/senators', [SenatorController::class, 'index'])->middleware('cache.headers:public;max_age=28800;etag');
+    Route::get('/senators/{id}', [SenatorController::class, 'show'])->middleware('cache.headers:public;max_age=28800;etag');
+    Route::get('/senators/{id}/expenses', [SenatorController::class, 'expenses'])->middleware('cache.headers:public;max_age=28800;etag');
+    Route::get('/expenses', [ExpenseController::class, 'index'])->middleware('cache.headers:public;max_age=28800;etag');
+    Route::get('/parties/{id}/expenses', [ExpenseController::class, 'partyExpenses'])->middleware('cache.headers:public;max_age=28800;etag');
+    Route::get('/parties', [PartyController::class, 'index'])->middleware('cache.headers:public;max_age=28800;etag');
+    Route::get('/uf/{uf}/expenses', [ExpenseController::class, 'UFExpenses'])->middleware('cache.headers:public;max_age=28800;etag');
+    Route::get('summary/by-party', [ExpenseController::class, 'summaryByParty'])->middleware('cache.headers:public;max_age=28800;etag');
+    Route::get('summary/by-uf', [ExpenseController::class, 'summaryByUF'])->middleware('cache.headers:public;max_age=28800;etag');
 });
 
 Route::middleware(['throttle:api'])->prefix('bandeiras-dos-estados')->group(function () {
-    Route::get('/', [BrazilFlagsController::class, 'index'])->middleware('cache.headers:public;max_age=14400;etag');
+    Route::get('/', [BrazilFlagsController::class, 'index'])->middleware('cache.headers:public;max_age=28800;etag');
 });
