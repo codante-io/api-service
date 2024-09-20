@@ -9,6 +9,7 @@ use App\Http\Controllers\RegisterUser\RegisterUserController;
 use App\Http\Controllers\SenatorExpenses\ExpenseController;
 use App\Http\Controllers\SenatorExpenses\PartyController;
 use App\Http\Controllers\SenatorExpenses\SenatorController;
+use App\Http\Controllers\Reviews\ReviewController;
 use Illuminate\Support\Facades\Route;
 
 Route::prefix('api')->group(function () {
@@ -20,6 +21,15 @@ Route::prefix('api')->group(function () {
         Route::delete('/frases/{id}', [QuoteController::class, 'delete']);
         Route::get('/frases/{id}', [QuoteController::class, 'showOne']);
         Route::get('/reset', [QuoteController::class, 'reset']);
+    });
+
+    Route::middleware(['throttle:api'])->prefix('reviews-api')->group(function () {
+        Route::get('/reviews', [ReviewController::class, 'show']);
+        Route::post('/reviews', [ReviewController::class, 'create']);
+        Route::put('/reviews/{id}', [ReviewController::class, 'update']);
+        Route::delete('/reviews/{id}', [ReviewController::class, 'delete']);
+        Route::get('/reviews/{id}', [ReviewController::class, 'showOne']);
+        Route::get('/reset', [ReviewController::class, 'reset']);
     });
 
     Route::middleware(['throttle:api'])->prefix('orders-api')->group(function () {

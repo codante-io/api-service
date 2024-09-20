@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Bruno M.",
+        "stars": 5,
+        "description": "Surpreendentemente confortável e com um som maravilhoso, valeu cada centavo! A qualidade sonora é impressionante, e o design é sofisticado. Uso tanto no trabalho quanto em casa."
+    },
+    {
+        "name": "Ana C.",
+        "stars": 5,
+        "description": "Design impecável e qualidade sonora sem igual. Uso diariamente e o conforto é excelente, mesmo por longos períodos. Recomendo para qualquer um que busque um fone de alta qualidade."
+    },
+    {
+        "name": "João S.",
+        "stars": 4,
+        "description": "Muito confortável e o áudio é incrível! Apenas senti que o cabo poderia ser um pouco mais longo, mas, no geral, estou muito satisfeito com a compra."
+    },
+    {
+        "name": "Mariana A.",
+        "stars": 5,
+        "description": "Perfeito para quem ama estilo e desempenho. Som limpo e design super elegante. Já é o meu fone de ouvido favorito!"
+    },
+    {
+        "name": "Ricardo F.",
+        "stars": 3,
+        "description": "Bom, mas poderia ser melhor. O som é excelente, mas tive alguns problemas com a durabilidade do cabo. Poderiam melhorar nisso."
+    },
+    {
+        "name": "Cláudia R.",
+        "stars": 4,
+        "description": "Excelente qualidade, mas o tempo de entrega foi um pouco maior do que o esperado. Apesar disso, o produto é maravilhoso, muito confortável."
+    },
+    {
+        "name": "Lucas P.",
+        "stars": 5,
+        "description": "Adorei o design, som cristalino e super confortável. Vale cada centavo! Ideal para ouvir música ou até mesmo trabalhar. Super recomendo!"
+    },
+    {
+        "name": "Paulo H.",
+        "stars": 2,
+        "description": "Deixou a desejar. O som é bom, mas esperava mais pelo preço. O cabo parece frágil e não é tão confortável quanto eu imaginava."
+    },
+    {
+        "name": "Isabela M.",
+        "stars": 5,
+        "description": "Produto incrível! A qualidade do som é surpreendente, e o conforto é incomparável. Muito feliz com a compra, recomendo sem hesitar."
+    },
+    {
+        "name": "Thiago G.",
+        "stars": 3,
+        "description": "Bom som, mas esperava mais pelo preço. O design é ótimo, mas senti que o fone não isola tanto o som externo quanto deveria."
+    }
+]

@@ -41,6 +41,11 @@ return [
             'password' => env('DB_PASSWORD'),
             'foreign_key_constraints' => true,
         ],
+        'reviews' => [
+            'driver' => 'sqlite',
+            'database' => database_path('db/reviews.sqlite'),
+            'foreign_key_constraints' => true,
+        ],
 
     ],
 
