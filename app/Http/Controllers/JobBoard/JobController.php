@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\JobBoard;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\StoreJobRequest;
-use App\Http\Requests\UpdateJobRequest;
+use App\Http\Requests\JobBoard\StoreJobRequest;
+use App\Http\Requests\JobBoard\UpdateJobRequest;
 use App\Http\Resources\JobBoard\JobResource;
 use App\Models\JobBoard\Job;
 
@@ -23,7 +23,9 @@ class JobController extends Controller
      */
     public function store(StoreJobRequest $request)
     {
+        $job = Job::create($request->all());
 
+        return new JobResource($job);
     }
 
     /**

@@ -6,10 +6,10 @@ use App\Http\Controllers\JobBoard\JobController;
 use App\Http\Controllers\OlympicGames\EventController;
 use App\Http\Controllers\Orders\OrderController;
 use App\Http\Controllers\RegisterUser\RegisterUserController;
+use App\Http\Controllers\Reviews\ReviewController;
 use App\Http\Controllers\SenatorExpenses\ExpenseController;
 use App\Http\Controllers\SenatorExpenses\PartyController;
 use App\Http\Controllers\SenatorExpenses\SenatorController;
-use App\Http\Controllers\Reviews\ReviewController;
 use Illuminate\Support\Facades\Route;
 
 Route::prefix('api')->group(function () {
@@ -43,10 +43,10 @@ Route::prefix('api')->group(function () {
     Route::middleware(['throttle:api'])->prefix('job-board')->group(function () {
         Route::get('/jobs', [JobController::class, 'index']);
         Route::post('/jobs', [JobController::class, 'store']);
-        Route::put('/jobs/{job}', [JobController::class, 'update']);
         Route::delete('/jobs/{job}', [JobController::class, 'destroy']);
         Route::get('/jobs/{job}', [JobController::class, 'show']);
         Route::get('/reset', [JobController::class, 'reset']);
+        // Route::put('/jobs/{job}', [JobController::class, 'update']);
     });
 
     Route::middleware(['throttle:api'])->prefix('register-user')->group(function () {

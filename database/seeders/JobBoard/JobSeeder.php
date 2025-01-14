@@ -12,7 +12,13 @@ class JobSeeder extends Seeder
      */
     public function run(): void
     {
-        // create 100 jobs
-        Job::factory()->count(5)->create();
+
+        $jobs = json_decode(file_get_contents(__DIR__.'/jobs.json'), true);
+
+        foreach ($jobs as $job) {
+            Job::create($job);
+        }
+
+        // Job::factory()->count(5)->create();
     }
 }

@@ -1,0 +1,152 @@
+[
+    {
+        "title": "Desenvolvedor de Software",
+        "company": "Google",
+        "company_website": "https://google.com",
+        "city": "Mountain View",
+        "schedule": "full-time",
+        "salary": 10000,
+        "description": "Estamos procurando um desenvolvedor de software para se juntar à nossa equipe.",
+        "requirements": "Experiência com PHP, Laravel, Vue.js"
+    },
+    {
+        "title": "Desenvolvedor Frontend",
+        "company": "Facebook",
+        "company_website": "https://facebook.com",
+        "city": "Menlo Park",
+        "schedule": "full-time",
+        "salary": 9000,
+        "description": "Estamos procurando um desenvolvedor frontend para se juntar à nossa equipe.",
+        "requirements": "Experiência com Vue.js, React.js"
+    },
+    {
+        "title": "Desenvolvedor Backend",
+        "company": "Amazon",
+        "company_website": "https://amazon.com",
+        "city": "Seattle",
+        "schedule": "full-time",
+        "salary": 8000,
+        "description": "Estamos procurando um desenvolvedor backend para se juntar à nossa equipe.",
+        "requirements": "Experiência com PHP, Laravel"
+    },
+    {
+        "title": "Desenvolvedor Fullstack",
+        "company": "Microsoft",
+        "company_website": "https://microsoft.com",
+        "city": "Redmond",
+        "schedule": "full-time",
+        "salary": 7000,
+        "description": "Estamos procurando um desenvolvedor fullstack para se juntar à nossa equipe.",
+        "requirements": "Experiência com PHP, Laravel, Vue.js, React.js"
+    },
+    {
+        "title": "Engenheiro de DevOps",
+        "company": "Netflix",
+        "company_website": "https://netflix.com",
+        "city": "Los Gatos",
+        "schedule": "full-time",
+        "salary": 6000,
+        "description": "Estamos procurando um engenheiro de DevOps para se juntar à nossa equipe.",
+        "requirements": "Experiência com AWS, Docker, Kubernetes"
+    },
+    {
+        "title": "Cientista de Dados",
+        "company": "Apple",
+        "company_website": "https://apple.com",
+        "city": "Cupertino",
+        "schedule": "part-time",
+        "salary": 5000,
+        "description": "Estamos procurando um cientista de dados para se juntar à nossa equipe.",
+        "requirements": "Experiência com Python, Pandas, Numpy"
+    },
+    {
+        "title": "Engenheiro de QA",
+        "company": "Twitter",
+        "company_website": "https://twitter.com",
+        "city": "San Francisco",
+        "schedule": "part-time",
+        "salary": 4000,
+        "description": "Estamos procurando um engenheiro de QA para se juntar à nossa equipe.",
+        "requirements": "Experiência com Selenium, PHPUnit"
+    },
+    {
+        "title": "Analista de Segurança",
+        "company": "LinkedIn",
+        "company_website": "https://linkedin.com",
+        "city": "Sunnyvale",
+        "schedule": "full-time",
+        "salary": 7500,
+        "description": "Estamos buscando um analista de segurança para nossa equipe.",
+        "requirements": "Experiência com segurança de redes e aplicações."
+    },
+    {
+        "title": "Desenvolvedor Mobile",
+        "company": "Uber",
+        "company_website": "https://uber.com",
+        "city": "San Francisco",
+        "schedule": "full-time",
+        "salary": 8500,
+        "description": "Estamos contratando um desenvolvedor mobile para construir novos recursos.",
+        "requirements": "Experiência com Swift ou Kotlin."
+    },
+    {
+        "title": "Designer de UX/UI",
+        "company": "Airbnb",
+        "company_website": "https://airbnb.com",
+        "city": "San Francisco",
+        "schedule": "full-time",
+        "salary": 7000,
+        "description": "Procuramos um designer UX/UI para criar experiências incríveis.",
+        "requirements": "Experiência com Figma e Adobe XD."
+    },
+    {
+        "title": "Gerente de Projetos",
+        "company": "Spotify",
+        "company_website": "https://spotify.com",
+        "city": "New York",
+        "schedule": "full-time",
+        "salary": 9200,
+        "description": "Estamos contratando um gerente de projetos para liderar nossas equipes.",
+        "requirements": "Experiência em metodologia Agile."
+    },
+    {
+        "title": "Especialista em Marketing Digital",
+        "company": "Instagram",
+        "company_website": "https://instagram.com",
+        "city": "Menlo Park",
+        "schedule": "full-time",
+        "salary": 6800,
+        "description": "Estamos procurando um especialista em marketing digital.",
+        "requirements": "Experiência com Google Ads e SEO."
+    },
+    {
+        "title": "Analista de Banco de Dados",
+        "company": "Oracle",
+        "company_website": "https://oracle.com",
+        "city": "Redwood City",
+        "schedule": "full-time",
+        "salary": 7800,
+        "description": "Buscamos um analista de banco de dados.",
+        "requirements": "Experiência com SQL e NoSQL."
+    },
+    {
+        "title": "Arquiteto de Soluções",
+        "company": "IBM",
+        "company_website": "https://ibm.com",
+        "city": "Armonk",
+        "schedule": "full-time",
+        "salary": 10500,
+        "description": "Estamos procurando um arquiteto de soluções para nossa equipe.",
+        "requirements": "Experiência com arquitetura de sistemas."
+    },
+    {
+        "title": "Consultor de TI",
+        "company": "Accenture",
+        "company_website": "https://accenture.com",
+        "city": "Dublin",
+        "schedule": "full-time",
+        "salary": 9800,
+        "description": "Estamos procurando um consultor de TI.",
+        "requirements": "Experiência em consultoria de TI."
+    }
+]
