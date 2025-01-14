@@ -7,6 +7,7 @@ use App\Http\Requests\JobBoard\StoreJobRequest;
 use App\Http\Requests\JobBoard\UpdateJobRequest;
 use App\Http\Resources\JobBoard\JobResource;
 use App\Models\JobBoard\Job;
+use Illuminate\Support\Facades\Artisan;
 
 class JobController extends Controller
 {
@@ -53,5 +54,12 @@ class JobController extends Controller
     public function destroy(Job $job)
     {
         $job->delete();
+    }
+
+    public function reset()
+    {
+        Artisan::call('api:job-board:reset');
+
+        return response()->json(['message' => 'Database reset']);
     }
 }
