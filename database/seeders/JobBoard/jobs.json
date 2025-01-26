@@ -72,8 +72,8 @@
         "city": "San Francisco",
         "schedule": "part-time",
         "salary": 4000,
-        "description": "Estamos procurando um engenheiro de QA para se juntar à nossa equipe.",
-        "requirements": "Experiência com Selenium, PHPUnit",
+        "description": "Como Engenheiro de QA no Twitter, você será fundamental para garantir a qualidade das nossas aplicações. Você desenvolverá e manterá frameworks de teste automatizado, implementará estratégias de teste end-to-end e colaborará com times de desenvolvimento para prevenir bugs e melhorar a qualidade do código.",
+        "requirements": "- Experiência avançada com Selenium e PHPUnit\n- Conhecimento em frameworks de teste automatizado\n- Experiência com teste de performance e carga\n- Familiaridade com CI/CD pipelines\n- Conhecimento em JavaScript e PHP\n- Experiência com ferramentas de teste de API\n- Habilidade em documentar casos de teste\n- Inglês avançado",
         "number_of_positions": 1
     },
     {
@@ -83,8 +83,8 @@
         "city": "Sunnyvale",
         "schedule": "full-time",
         "salary": 7500,
-        "description": "Estamos buscando um analista de segurança para nossa equipe.",
-        "requirements": "Experiência com segurança de redes e aplicações.",
+        "description": "Como Analista de Segurança no LinkedIn, você protegerá dados sensíveis de milhões de usuários. Será responsável por realizar avaliações de segurança, identificar vulnerabilidades, implementar controles de segurança e responder a incidentes. Trabalhará com as últimas tecnologias em segurança cibernética.",
+        "requirements": "- Certificações em segurança (CISSP, CEH, OSCP)\n- Experiência com pentesting e análise de vulnerabilidades\n- Conhecimento em segurança de redes e aplicações web\n- Experiência com ferramentas de segurança\n- Familiaridade com compliance (GDPR, SOX)\n- Conhecimento em forense digital\n- Habilidade em análise de malware\n- Inglês fluente",
         "number_of_positions": 4
     },
     {
@@ -94,8 +94,8 @@
         "city": "San Francisco",
         "schedule": "full-time",
         "salary": 8500,
-        "description": "Estamos contratando um desenvolvedor mobile para construir novos recursos.",
-        "requirements": "Experiência com Swift ou Kotlin.",
+        "description": "Na Uber, você desenvolverá recursos inovadores para nosso aplicativo usado por milhões de usuários diariamente. Será responsável por criar experiências móveis excepcionais, otimizar performance e implementar novos recursos que impactam diretamente motoristas e passageiros em todo o mundo.",
+        "requirements": "- Domínio de Swift para iOS ou Kotlin para Android\n- Experiência com padrões de arquitetura mobile\n- Conhecimento em performance e otimização\n- Experiência com integração de APIs\n- Familiaridade com CI/CD mobile\n- Conhecimento em testes automatizados\n- Experiência com análise de métricas\n- Inglês avançado",
         "number_of_positions": 3
     },
     {
@@ -105,8 +105,8 @@
         "city": "San Francisco",
         "schedule": "full-time",
         "salary": 7000,
-        "description": "Procuramos um designer UX/UI para criar experiências incríveis.",
-        "requirements": "Experiência com Figma e Adobe XD.",
+        "description": "Como Designer UX/UI no Airbnb, você criará experiências digitais que conectam pessoas ao redor do mundo. Será responsável pelo design de interfaces intuitivas e atraentes, conduzirá pesquisas com usuários e colaborará com times multidisciplinares para criar soluções inovadoras de design.",
+        "requirements": "- Domínio de Figma e Adobe XD\n- Portfolio sólido de projetos digitais\n- Experiência com design systems\n- Conhecimento em pesquisa de usuário\n- Habilidade em prototipagem\n- Experiência com design responsivo\n- Conhecimento em acessibilidade\n- Inglês fluente",
         "number_of_positions": 2
     },
     {
@@ -116,8 +116,8 @@
         "city": "New York",
         "schedule": "full-time",
         "salary": 9200,
-        "description": "Estamos contratando um gerente de projetos para liderar nossas equipes.",
-        "requirements": "Experiência em metodologia Agile.",
+        "description": "No Spotify, você liderará equipes de desenvolvimento em projetos inovadores que transformam a indústria da música. Será responsável por gerenciar múltiplos projetos, facilitar a comunicação entre times, garantir entregas no prazo e qualidade, além de promover a cultura ágil.",
+        "requirements": "- Certificação PMP ou similar\n- Experiência sólida com metodologias ágeis\n- Conhecimento em ferramentas de gestão de projetos\n- Habilidade em gestão de stakeholders\n- Experiência em projetos de tecnologia\n- Capacidade de liderança e motivação\n- Excelente comunicação\n- Inglês fluente",
         "number_of_positions": 1
     },
     {
@@ -127,8 +127,8 @@
         "city": "Menlo Park",
         "schedule": "full-time",
         "salary": 6800,
-        "description": "Estamos procurando um especialista em marketing digital.",
-        "requirements": "Experiência com Google Ads e SEO.",
+        "description": "No Instagram, você desenvolverá e implementará estratégias de marketing digital inovadoras. Será responsável por campanhas de crescimento, análise de dados, otimização de conversão e desenvolvimento de estratégias de engajamento para alcançar bilhões de usuários globalmente.",
+        "requirements": "- Experiência avançada com Google Ads e SEO\n- Domínio de analytics e ferramentas de dados\n- Conhecimento em marketing de mídia social\n- Experiência com marketing de conteúdo\n- Habilidade em A/B testing\n- Conhecimento em automação de marketing\n- Experiência com marketing performance\n- Inglês fluente",
         "number_of_positions": 4
     },
     {
@@ -138,8 +138,8 @@
         "city": "Redwood City",
         "schedule": "full-time",
         "salary": 7800,
-        "description": "Buscamos um analista de banco de dados.",
-        "requirements": "Experiência com SQL e NoSQL.",
+        "description": "Na Oracle, você será responsável por projetar, implementar e otimizar soluções de banco de dados em larga escala. Trabalhará com tecnologias de ponta em big data, garantindo performance, segurança e disponibilidade de dados críticos para grandes empresas.",
+        "requirements": "- Domínio avançado de SQL e NoSQL\n- Experiência com Oracle Database e MongoDB\n- Conhecimento em modelagem de dados\n- Experiência com tuning e otimização\n- Conhecimento em backup e recovery\n- Familiaridade com big data\n- Experiência em segurança de dados\n- Inglês avançado",
         "number_of_positions": 3
     },
     {
@@ -149,8 +149,8 @@
         "city": "Armonk",
         "schedule": "full-time",
         "salary": 10500,
-        "description": "Estamos procurando um arquiteto de soluções para nossa equipe.",
-        "requirements": "Experiência com arquitetura de sistemas.",
+        "description": "Como Arquiteto de Soluções na IBM, você projetará sistemas complexos que resolvem desafios empresariais críticos. Será responsável por definir arquiteturas escaláveis, liderar decisões tecnológicas e garantir a implementação de melhores práticas em projetos de grande escala.",
+        "requirements": "- Vasta experiência em arquitetura de sistemas\n- Conhecimento profundo em cloud computing\n- Experiência com microsserviços\n- Domínio de padrões de arquitetura\n- Conhecimento em segurança e compliance\n- Experiência com sistemas distribuídos\n- Habilidade em governança de TI\n- Inglês fluente",
         "number_of_positions": 2
     },
     {
@@ -160,8 +160,8 @@
         "city": "Dublin",
         "schedule": "full-time",
         "salary": 9800,
-        "description": "Estamos procurando um consultor de TI.",
-        "requirements": "Experiência em consultoria de TI.",
+        "description": "Na Accenture, você será um consultor estratégico de TI, ajudando organizações globais em sua transformação digital. Será responsável por analisar necessidades de negócio, propor soluções tecnológicas inovadoras e liderar implementações de grande impacto.",
+        "requirements": "- Experiência comprovada em consultoria de TI\n- Conhecimento em transformação digital\n- Experiência em gestão de projetos\n- Habilidade em análise de negócios\n- Conhecimento em metodologias ágeis\n- Experiência em gestão de mudanças\n- Forte capacidade analítica\n- Inglês fluente",
         "number_of_positions": 1
     }
 ]
