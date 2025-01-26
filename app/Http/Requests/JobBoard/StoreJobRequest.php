@@ -30,6 +30,7 @@ class StoreJobRequest extends FormRequest
             'salary' => ['required', 'numeric'],
             'description' => ['required', 'string'],
             'requirements' => ['required', 'string'],
+            'number_of_positions' => ['required', 'integer'],
         ];
     }
 }

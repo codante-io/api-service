@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('company');
             $table->string('company_website');
+            $table->integer('number_of_positions')->default(1);
             $table->string('city');
             $table->enum('schedule', ['full-time', 'part-time']);
             $table->decimal('salary', 10, 2);

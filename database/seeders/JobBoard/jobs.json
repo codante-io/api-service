@@ -7,7 +7,8 @@
         "schedule": "full-time",
         "salary": 10000,
         "description": "Estamos procurando um desenvolvedor de software para se juntar à nossa equipe.",
-        "requirements": "Experiência com PHP, Laravel, Vue.js"
+        "requirements": "Experiência com PHP, Laravel, Vue.js",
+        "number_of_positions": 3
     },
     {
         "title": "Desenvolvedor Frontend",
@@ -17,7 +18,8 @@
         "schedule": "full-time",
         "salary": 9000,
         "description": "Estamos procurando um desenvolvedor frontend para se juntar à nossa equipe.",
-        "requirements": "Experiência com Vue.js, React.js"
+        "requirements": "Experiência com Vue.js, React.js",
+        "number_of_positions": 2
     },
     {
         "title": "Desenvolvedor Backend",
@@ -27,7 +29,8 @@
         "schedule": "full-time",
         "salary": 8000,
         "description": "Estamos procurando um desenvolvedor backend para se juntar à nossa equipe.",
-        "requirements": "Experiência com PHP, Laravel"
+        "requirements": "Experiência com PHP, Laravel",
+        "number_of_positions": 4
     },
     {
         "title": "Desenvolvedor Fullstack",
@@ -37,7 +40,8 @@
         "schedule": "full-time",
         "salary": 7000,
         "description": "Estamos procurando um desenvolvedor fullstack para se juntar à nossa equipe.",
-        "requirements": "Experiência com PHP, Laravel, Vue.js, React.js"
+        "requirements": "Experiência com PHP, Laravel, Vue.js, React.js",
+        "number_of_positions": 1
     },
     {
         "title": "Engenheiro de DevOps",
@@ -47,7 +51,8 @@
         "schedule": "full-time",
         "salary": 6000,
         "description": "Estamos procurando um engenheiro de DevOps para se juntar à nossa equipe.",
-        "requirements": "Experiência com AWS, Docker, Kubernetes"
+        "requirements": "Experiência com AWS, Docker, Kubernetes",
+        "number_of_positions": 3
     },
     {
         "title": "Cientista de Dados",
@@ -57,7 +62,8 @@
         "schedule": "part-time",
         "salary": 5000,
         "description": "Estamos procurando um cientista de dados para se juntar à nossa equipe.",
-        "requirements": "Experiência com Python, Pandas, Numpy"
+        "requirements": "Experiência com Python, Pandas, Numpy",
+        "number_of_positions": 2
     },
     {
         "title": "Engenheiro de QA",
@@ -67,7 +73,8 @@
         "schedule": "part-time",
         "salary": 4000,
         "description": "Estamos procurando um engenheiro de QA para se juntar à nossa equipe.",
-        "requirements": "Experiência com Selenium, PHPUnit"
+        "requirements": "Experiência com Selenium, PHPUnit",
+        "number_of_positions": 1
     },
     {
         "title": "Analista de Segurança",
@@ -77,7 +84,8 @@
         "schedule": "full-time",
         "salary": 7500,
         "description": "Estamos buscando um analista de segurança para nossa equipe.",
-        "requirements": "Experiência com segurança de redes e aplicações."
+        "requirements": "Experiência com segurança de redes e aplicações.",
+        "number_of_positions": 4
     },
     {
         "title": "Desenvolvedor Mobile",
@@ -87,7 +95,8 @@
         "schedule": "full-time",
         "salary": 8500,
         "description": "Estamos contratando um desenvolvedor mobile para construir novos recursos.",
-        "requirements": "Experiência com Swift ou Kotlin."
+        "requirements": "Experiência com Swift ou Kotlin.",
+        "number_of_positions": 3
     },
     {
         "title": "Designer de UX/UI",
@@ -97,7 +106,8 @@
         "schedule": "full-time",
         "salary": 7000,
         "description": "Procuramos um designer UX/UI para criar experiências incríveis.",
-        "requirements": "Experiência com Figma e Adobe XD."
+        "requirements": "Experiência com Figma e Adobe XD.",
+        "number_of_positions": 2
     },
     {
         "title": "Gerente de Projetos",
@@ -107,7 +117,8 @@
         "schedule": "full-time",
         "salary": 9200,
         "description": "Estamos contratando um gerente de projetos para liderar nossas equipes.",
-        "requirements": "Experiência em metodologia Agile."
+        "requirements": "Experiência em metodologia Agile.",
+        "number_of_positions": 1
     },
     {
         "title": "Especialista em Marketing Digital",
@@ -117,7 +128,8 @@
         "schedule": "full-time",
         "salary": 6800,
         "description": "Estamos procurando um especialista em marketing digital.",
-        "requirements": "Experiência com Google Ads e SEO."
+        "requirements": "Experiência com Google Ads e SEO.",
+        "number_of_positions": 4
     },
     {
         "title": "Analista de Banco de Dados",
@@ -127,7 +139,8 @@
         "schedule": "full-time",
         "salary": 7800,
         "description": "Buscamos um analista de banco de dados.",
-        "requirements": "Experiência com SQL e NoSQL."
+        "requirements": "Experiência com SQL e NoSQL.",
+        "number_of_positions": 3
     },
     {
         "title": "Arquiteto de Soluções",
@@ -137,7 +150,8 @@
         "schedule": "full-time",
         "salary": 10500,
         "description": "Estamos procurando um arquiteto de soluções para nossa equipe.",
-        "requirements": "Experiência com arquitetura de sistemas."
+        "requirements": "Experiência com arquitetura de sistemas.",
+        "number_of_positions": 2
     },
     {
         "title": "Consultor de TI",
@@ -147,6 +161,7 @@
         "schedule": "full-time",
         "salary": 9800,
         "description": "Estamos procurando um consultor de TI.",
-        "requirements": "Experiência em consultoria de TI."
+        "requirements": "Experiência em consultoria de TI.",
+        "number_of_positions": 1
     }
 ]
