@@ -6,8 +6,8 @@
         "city": "Mountain View",
         "schedule": "full-time",
         "salary": 10000,
-        "description": "Estamos procurando um desenvolvedor de software para se juntar à nossa equipe.",
-        "requirements": "Experiência com PHP, Laravel, Vue.js",
+        "description": "Estamos procurando um desenvolvedor de software apaixonado por tecnologia para se juntar à nossa equipe dinâmica no Google. Você terá a oportunidade de trabalhar em projetos inovadores que impactam milhões de usuários globalmente. Será responsável por desenvolver soluções escaláveis, participar de code reviews, e colaborar com times multidisciplinares em um ambiente ágil.",
+        "requirements": "- Sólida experiência com PHP 8+ e frameworks Laravel\n- Proficiência em Vue.js e ecossistema frontend\n- Conhecimento em práticas de clean code e design patterns\n- Experiência com desenvolvimento orientado a testes (TDD)\n- Familiaridade com sistemas de controle de versão Git\n- Boa comunicação e trabalho em equipe\n- Inglês fluente",
         "number_of_positions": 3
     },
     {
@@ -17,8 +17,8 @@
         "city": "Menlo Park",
         "schedule": "full-time",
         "salary": 9000,
-        "description": "Estamos procurando um desenvolvedor frontend para se juntar à nossa equipe.",
-        "requirements": "Experiência com Vue.js, React.js",
+        "description": "Como desenvolvedor Frontend no Facebook, você será parte fundamental na construção de interfaces que conectam bilhões de pessoas. Buscamos alguém que combine criatividade e habilidades técnicas para criar experiências excepcionais. Você trabalhará com as mais recentes tecnologias web e terá impacto direto na forma como as pessoas interagem com nossa plataforma.",
+        "requirements": "- Domínio avançado de Vue.js e React.js\n- Experiência com TypeScript e JavaScript moderno\n- Conhecimento em otimização de performance web\n- Experiência com ferramentas de build modernas (Webpack, Vite)\n- Conhecimento em acessibilidade web e SEO\n- Experiência com CSS moderno e pré-processadores\n- Habilidade para criar interfaces responsivas\n- Inglês avançado",
         "number_of_positions": 2
     },
     {
@@ -28,8 +28,8 @@
         "city": "Seattle",
         "schedule": "full-time",
         "salary": 8000,
-        "description": "Estamos procurando um desenvolvedor backend para se juntar à nossa equipe.",
-        "requirements": "Experiência com PHP, Laravel",
+        "description": "Na Amazon, você fará parte de uma equipe que desenvolve soluções escaláveis que atendem milhões de clientes. Você será responsável pela arquitetura de microsserviços, otimização de performance e segurança de APIs. Trabalhará com tecnologias de ponta e terá a oportunidade de contribuir para a evolução da maior plataforma de e-commerce do mundo.",
+        "requirements": "- Experiência sólida com PHP 8+ e Laravel\n- Conhecimento profundo de arquitetura de microsserviços\n- Experiência com bancos de dados relacionais e NoSQL\n- Domínio de práticas de segurança e performance\n- Experiência com APIs RESTful e GraphQL\n- Conhecimento em Docker e containers\n- Habilidade em escrever testes automatizados\n- Inglês técnico avançado",
         "number_of_positions": 4
     },
     {
@@ -39,8 +39,8 @@
         "city": "Redmond",
         "schedule": "full-time",
         "salary": 7000,
-        "description": "Estamos procurando um desenvolvedor fullstack para se juntar à nossa equipe.",
-        "requirements": "Experiência com PHP, Laravel, Vue.js, React.js",
+        "description": "Como desenvolvedor Fullstack na Microsoft, você terá a oportunidade de trabalhar em todas as camadas do desenvolvimento de software. Desde a criação de interfaces modernas até a implementação de APIs robustas. Você fará parte de uma equipe que desenvolve soluções empresariais utilizadas por milhões de profissionais globalmente.",
+        "requirements": "- Domínio de PHP e frameworks Laravel\n- Experiência sólida com Vue.js e React.js\n- Conhecimento em arquitetura de software\n- Experiência com bancos de dados SQL e NoSQL\n- Familiaridade com metodologias ágeis\n- Conhecimento em CI/CD\n- Experiência com Azure ou outras clouds\n- Inglês fluente",
         "number_of_positions": 1
     },
     {
@@ -50,8 +50,8 @@
         "city": "Los Gatos",
         "schedule": "full-time",
         "salary": 6000,
-        "description": "Estamos procurando um engenheiro de DevOps para se juntar à nossa equipe.",
-        "requirements": "Experiência com AWS, Docker, Kubernetes",
+        "description": "Como Engenheiro DevOps na Netflix, você será responsável por construir e manter a infraestrutura que permite streaming de conteúdo para milhões de usuários simultaneamente. Você trabalhará com tecnologias de ponta em escala global, automatizando processos e garantindo alta disponibilidade dos sistemas.",
+        "requirements": "- Experiência avançada com AWS e seus serviços\n- Domínio de Docker e orquestração com Kubernetes\n- Conhecimento em IaC (Terraform, CloudFormation)\n- Experiência com ferramentas de CI/CD\n- Monitoramento e observabilidade\n- Conhecimento em práticas de segurança\n- Experiência com Python ou Go\n- Inglês fluente",
         "number_of_positions": 3
     },
     {
@@ -61,8 +61,8 @@
         "city": "Cupertino",
         "schedule": "part-time",
         "salary": 5000,
-        "description": "Estamos procurando um cientista de dados para se juntar à nossa equipe.",
-        "requirements": "Experiência com Python, Pandas, Numpy",
+        "description": "Na Apple, você será parte de uma equipe de cientistas de dados que transformam grandes volumes de dados em insights acionáveis. Você desenvolverá modelos preditivos, realizará análises complexas e contribuirá para a tomada de decisões estratégicas usando técnicas avançadas de machine learning.",
+        "requirements": "- Mestrado ou Doutorado em área relacionada\n- Domínio de Python e suas bibliotecas (Pandas, NumPy)\n- Experiência com ML frameworks (TensorFlow, PyTorch)\n- Conhecimento em estatística avançada\n- Experiência com Big Data (Spark, Hadoop)\n- Habilidade em visualização de dados\n- Experiência com SQL e NoSQL\n- Inglês avançado",
         "number_of_positions": 2
     },
     {

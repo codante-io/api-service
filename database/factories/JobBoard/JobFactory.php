@@ -16,15 +16,19 @@ class JobFactory extends Factory
      */
     public function definition(): array
     {
+        $jobs = json_decode(file_get_contents(__DIR__.'/../../../seeders/JobBoard/jobs.json'), true);
+        $job = $this->faker->randomElement($jobs);
+
         return [
-            'title' => $this->faker->jobTitle,
-            'company' => $this->faker->company,
-            'company_website' => $this->faker->url,
-            'city' => $this->faker->city,
-            'schedule' => $this->faker->randomElement(['full-time', 'part-time']),
-            'salary' => $this->faker->randomFloat(2, 1000, 10000),
-            'description' => $this->faker->text,
-            'requirements' => $this->faker->text,
+            'title' => $job['title'],
+            'company' => $job['company'],
+            'company_website' => $job['company_website'],
+            'city' => $job['city'],
+            'schedule' => $job['schedule'],
+            'salary' => $job['salary'],
+            'description' => $job['description'],
+            'requirements' => $job['requirements'],
+            'number_of_positions' => $job['number_of_positions'],
         ];
     }
 }
