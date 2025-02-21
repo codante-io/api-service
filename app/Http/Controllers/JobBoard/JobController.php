@@ -39,6 +39,10 @@ class JobController extends Controller
      */
     public function show(Job $job)
     {
+        if (request()->has('slow')) {
+            sleep(5);
+        }
+
         return new JobResource($job);
     }
 
