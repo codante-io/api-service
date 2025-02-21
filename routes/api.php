@@ -45,6 +45,7 @@ Route::prefix('api')->group(function () {
         Route::post('/jobs', [JobController::class, 'store']);
         Route::delete('/jobs/{job}', [JobController::class, 'destroy']);
         Route::get('/jobs/{job}', [JobController::class, 'show']);
+        Route::get('/jobs/{job}/comments', [JobController::class, 'commentsIndex']);
         Route::get('/reset', [JobController::class, 'reset']);
         // Route::put('/jobs/{job}', [JobController::class, 'update']);
     });

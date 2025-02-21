@@ -40,7 +40,7 @@ class JobController extends Controller
     public function show(Job $job)
     {
         if (request()->has('slow')) {
-            sleep(5);
+            sleep(2);
         }
 
         return new JobResource($job);
@@ -63,6 +63,30 @@ class JobController extends Controller
     public function destroy(Job $job)
     {
         $job->delete();
+    }
+
+    public function commentsIndex()
+    {
+        if (request()->has('slow')) {
+            sleep(4);
+        }
+
+        return [
+            'data' => [
+                [
+                    'author' => 'Carlos Cândido',
+                    'content' => 'Eu acho essa empresa muito boa. Eu adoraria trabalhar aqui',
+                ],
+                [
+                    'author' => 'Joacir Figueiredo',
+                    'content' => 'Eu não tenho certeza sobre essa vaga',
+                ],
+                [
+                    'author' => 'Larissa Navegante',
+                    'content' => 'Eu acho que essa vaga é perfeita para mim',
+                ],
+            ],
+        ];
     }
 
     public function reset()
