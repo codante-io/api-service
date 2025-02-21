@@ -16,6 +16,11 @@ class JobController extends Controller
      */
     public function index()
     {
+        // if slow flag is passed, lets delay 2 seconds to simulate a slow response
+        if (request()->has('slow')) {
+            sleep(5);
+        }
+
         return JobResource::collection(Job::all()->sortByDesc('created_at'));
     }
 
