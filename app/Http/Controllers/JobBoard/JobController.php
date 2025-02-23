@@ -21,7 +21,16 @@ class JobController extends Controller
             sleep(5);
         }
 
-        return JobResource::collection(Job::all()->sortByDesc('created_at'));
+        $query = Job::query();
+
+        if (request()->has('search')) {
+            $searchTerm = request()->input('search');
+            $query->where('title', 'like', "%{$searchTerm}%")
+                  ->orWhere('company', 'like', "%{$searchTerm}%")
+                  ->orWhere('city', 'like', "%{$searchTerm}%");
+        }
+
+        return JobResource::collection($query->orderBy('created_at', 'desc')->get());
     }
 
     /**
@@ -74,14 +83,17 @@ class JobController extends Controller
         return [
             'data' => [
                 [
+                    'id' => 1,
                     'author' => 'Carlos Cândido',
                     'content' => 'Eu acho essa empresa muito boa. Eu adoraria trabalhar aqui',
                 ],
                 [
+                    'id' => 2,
                     'author' => 'Joacir Figueiredo',
                     'content' => 'Eu não tenho certeza sobre essa vaga',
                 ],
                 [
+                    'id' => 3,
                     'author' => 'Larissa Navegante',
                     'content' => 'Eu acho que essa vaga é perfeita para mim',
                 ],
