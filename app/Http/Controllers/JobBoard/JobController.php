@@ -30,7 +30,7 @@ class JobController extends Controller
                   ->orWhere('city', 'like', "%{$searchTerm}%");
         }
 
-        return JobResource::collection($query->orderBy('created_at', 'desc')->get());
+        return JobResource::collection($query->orderBy('created_at', 'desc')->paginate(10));
     }
 
     /**
