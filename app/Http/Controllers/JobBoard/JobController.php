@@ -18,7 +18,7 @@ class JobController extends Controller
     {
         // if slow flag is passed, lets delay 2 seconds to simulate a slow response
         if (request()->has('slow')) {
-            sleep(5);
+            sleep(2);
         }
 
         $query = Job::query();
@@ -26,8 +26,8 @@ class JobController extends Controller
         if (request()->has('search')) {
             $searchTerm = request()->input('search');
             $query->where('title', 'like', "%{$searchTerm}%")
-                  ->orWhere('company', 'like', "%{$searchTerm}%")
-                  ->orWhere('city', 'like', "%{$searchTerm}%");
+                ->orWhere('company', 'like', "%{$searchTerm}%")
+                ->orWhere('city', 'like', "%{$searchTerm}%");
         }
 
         return JobResource::collection($query->orderBy('created_at', 'desc')->paginate(10));
