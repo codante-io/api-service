@@ -163,5 +163,170 @@
         "description": "Na Accenture, você será um consultor estratégico de TI, ajudando organizações globais em sua transformação digital. Será responsável por analisar necessidades de negócio, propor soluções tecnológicas inovadoras e liderar implementações de grande impacto.",
         "requirements": "- Experiência comprovada em consultoria de TI\n- Conhecimento em transformação digital\n- Experiência em gestão de projetos\n- Habilidade em análise de negócios\n- Conhecimento em metodologias ágeis\n- Experiência em gestão de mudanças\n- Forte capacidade analítica\n- Inglês fluente",
         "number_of_positions": 1
+    },
+    {
+        "title": "Analista de Dados Sênior",
+        "company": "TikTok",
+        "company_website": "https://tiktok.com",
+        "city": "Los Angeles",
+        "schedule": "full-time",
+        "salary": 8200,
+        "description": "No TikTok, você liderará a análise de dados para entender o comportamento dos usuários e otimizar a experiência na plataforma. Será responsável por desenvolver dashboards, criar relatórios e fornecer insights acionáveis para a equipe de produto e marketing.",
+        "requirements": "- Experiência avançada em análise de dados\n- Domínio de SQL e Python\n- Experiência com ferramentas de visualização (Tableau, Power BI)\n- Conhecimento em estatística e modelagem preditiva\n- Habilidade em comunicação e apresentação de resultados\n- Experiência com análise de dados em larga escala\n- Inglês fluente",
+        "number_of_positions": 3
+    },
+    {
+        "title": "Engenheiro de Machine Learning",
+        "company": "Tesla",
+        "company_website": "https://tesla.com",
+        "city": "Palo Alto",
+        "schedule": "full-time",
+        "salary": 11000,
+        "description": "Na Tesla, você desenvolverá algoritmos de machine learning para carros autônomos e outras aplicações inovadoras. Será responsável por treinar modelos, otimizar performance e integrar soluções de ML em sistemas de produção.",
+        "requirements": "- Experiência avançada em machine learning\n- Domínio de Python e TensorFlow/PyTorch\n- Conhecimento em Deep Learning\n- Experiência com visão computacional ou processamento de linguagem natural\n- Habilidade em trabalhar com grandes volumes de dados\n- Inglês fluente",
+        "number_of_positions": 2
+    },
+    {
+        "title": "Especialista em SEO",
+        "company": "YouTube",
+        "company_website": "https://youtube.com",
+        "city": "San Bruno",
+        "schedule": "full-time",
+        "salary": 7200,
+        "description": "No YouTube, você será responsável por otimizar o conteúdo da plataforma para melhorar o posicionamento nos resultados de busca. Será responsável por realizar análises de palavras-chave, otimizar metadados e desenvolver estratégias de link building.",
+        "requirements": "- Experiência comprovada em SEO\n- Conhecimento em Google Analytics e Search Console\n- Experiência com ferramentas de SEO (SEMrush, Ahrefs)\n- Habilidade em análise de dados e relatórios\n- Conhecimento em marketing de conteúdo\n- Inglês fluente",
+        "number_of_positions": 1
+    },
+    {
+        "title": "Analista de Marketing de Produto",
+        "company": "Zoom",
+        "company_website": "https://zoom.us",
+        "city": "San Jose",
+        "schedule": "full-time",
+        "salary": 7900,
+        "description": "No Zoom, você será responsável por definir a estratégia de marketing de produtos, desde o lançamento até a adoção. Será responsável por conduzir pesquisas de mercado, analisar a concorrência e desenvolver mensagens de marketing eficazes.",
+        "requirements": "- Experiência em marketing de produto\n- Conhecimento em análise de mercado\n- Habilidade em comunicação e apresentação\n- Experiência em lançamento de produtos\n- Inglês fluente",
+        "number_of_positions": 3
+    },
+    {
+        "title": "Engenheiro de Dados",
+        "company": "Databricks",
+        "company_website": "https://databricks.com",
+        "city": "San Francisco",
+        "schedule": "full-time",
+        "salary": 9500,
+        "description": "Na Databricks, você construirá pipelines de dados escaláveis e confiáveis para processar grandes volumes de informações. Será responsável por projetar arquiteturas de dados, implementar soluções de ETL e garantir a qualidade dos dados.",
+        "requirements": "- Experiência em engenharia de dados\n- Domínio de Spark e Hadoop\n- Conhecimento em bancos de dados NoSQL\n- Experiência com ferramentas de ETL\n- Inglês fluente",
+        "number_of_positions": 4
+    },
+    {
+        "title": "Especialista em Cibersegurança",
+        "company": "Palo Alto Networks",
+        "company_website": "https://paloaltonetworks.com",
+        "city": "Santa Clara",
+        "schedule": "full-time",
+        "salary": 10200,
+        "description": "Na Palo Alto Networks, você protegerá redes e sistemas contra ameaças cibernéticas. Será responsável por realizar análises de vulnerabilidades, implementar medidas de segurança e responder a incidentes de segurança.",
+        "requirements": "- Experiência em cibersegurança\n- Conhecimento em segurança de redes e sistemas\n- Experiência com ferramentas de segurança\n- Certificações em segurança (CISSP, CEH)\n- Inglês fluente",
+        "number_of_positions": 2
+    },
+    {
+        "title": "Analista de Sistemas",
+        "company": "ServiceNow",
+        "company_website": "https://servicenow.com",
+        "city": "Santa Clara",
+        "schedule": "full-time",
+        "salary": 8000,
+        "description": "Na ServiceNow, você será responsável por analisar e otimizar processos de negócio usando a plataforma ServiceNow. Será responsável por configurar a plataforma, desenvolver aplicações e integrar sistemas.",
+        "requirements": "- Experiência em análise de sistemas\n- Conhecimento da plataforma ServiceNow\n- Habilidade em análise de processos\n- Inglês fluente",
+        "number_of_positions": 1
+    },
+    {
+        "title": "Engenheiro de Confiabilidade de Site (SRE)",
+        "company": "Cloudflare",
+        "company_website": "https://cloudflare.com",
+        "city": "San Francisco",
+        "schedule": "full-time",
+        "salary": 10800,
+        "description": "Na Cloudflare, você garantirá a confiabilidade e performance da infraestrutura da empresa. Será responsável por monitorar sistemas, automatizar processos e responder a incidentes.",
+        "requirements": "- Experiência em SRE\n- Domínio de Linux e ferramentas de automação\n- Conhecimento em redes e sistemas distribuídos\n- Inglês fluente",
+        "number_of_positions": 3
+    },
+    {
+        "title": "Arquiteto de Cloud",
+        "company": "DigitalOcean",
+        "company_website": "https://digitalocean.com",
+        "city": "New York",
+        "schedule": "full-time",
+        "salary": 9700,
+        "description": "Na DigitalOcean, você projetará e implementará soluções de cloud computing para empresas de todos os tamanhos. Será responsável por definir a arquitetura, escolher tecnologias e garantir a segurança.",
+        "requirements": "- Experiência em arquitetura de cloud\n- Conhecimento de AWS, Azure ou Google Cloud\n- Experiência com microsserviços e containers\n- Inglês fluente",
+        "number_of_positions": 2
+    },
+    {
+        "title": "Especialista em Experiência do Cliente",
+        "company": "Salesforce",
+        "company_website": "https://salesforce.com",
+        "city": "San Francisco",
+        "schedule": "full-time",
+        "salary": 7500,
+        "description": "Na Salesforce, você será responsável por melhorar a experiência do cliente em todos os pontos de contato com a empresa. Será responsável por coletar feedback, analisar dados e implementar melhorias.",
+        "requirements": "- Experiência em experiência do cliente\n- Habilidade em análise de dados\n- Conhecimento em CRM\n- Inglês fluente",
+        "number_of_positions": 1
+    },
+    {
+        "title": "Engenheiro de Automação",
+        "company": "UiPath",
+        "company_website": "https://uipath.com",
+        "city": "New York",
+        "schedule": "full-time",
+        "salary": 8800,
+        "description": "Na UiPath, você automatizará processos de negócio usando a plataforma de RPA da empresa. Será responsável por projetar soluções, implementar robôs e monitorar performance.",
+        "requirements": "- Experiência em automação de processos\n- Conhecimento da plataforma UiPath\n- Habilidade em análise de processos\n- Inglês fluente",
+        "number_of_positions": 4
+    },
+    {
+        "title": "Analista de Investimentos em Tecnologia",
+        "company": "Andreessen Horowitz",
+        "company_website": "https://a16z.com",
+        "city": "Menlo Park",
+        "schedule": "full-time",
+        "salary": 12000,
+        "description": "Na Andreessen Horowitz, você analisará startups de tecnologia para identificar oportunidades de investimento. Será responsável por avaliar modelos de negócio, analisar dados financeiros e apresentar recomendações.",
+        "requirements": "- Experiência em análise de investimentos\n- Conhecimento do mercado de tecnologia\n- Habilidade em análise financeira\n- Inglês fluente",
+        "number_of_positions": 2
+    },
+    {
+        "title": "Líder Técnico",
+        "company": "GitLab",
+        "company_website": "https://gitlab.com",
+        "city": "Remote",
+        "schedule": "full-time",
+        "salary": 11500,
+        "description": "No GitLab, você liderará uma equipe de desenvolvedores na construção de ferramentas para o ciclo de vida do desenvolvimento de software. Será responsável por definir a arquitetura, garantir a qualidade do código e promover a colaboração.",
+        "requirements": "- Experiência em liderança técnica\n- Domínio de Git e ferramentas de desenvolvimento\n- Conhecimento em arquitetura de software\n- Inglês fluente",
+        "number_of_positions": 3
+    },
+    {
+        "title": "Especialista em Growth Hacking",
+        "company": "DropBox",
+        "company_website": "https://dropbox.com",
+        "city": "San Francisco",
+        "schedule": "full-time",
+        "salary": 9000,
+        "description": "No DropBox, você será responsável por implementar estratégias de crescimento inovadoras. Irá identificar oportunidades de crescimento, realizar testes A/B e otimizar funis de conversão.",
+        "requirements": "- Experiência comprovada em Growth Hacking\n- Conhecimento em análise de dados e métricas\n- Experiência com ferramentas de automação de marketing\n- Inglês fluente",
+        "number_of_positions": 2
+    },
+    {
+        "title": "Engenheiro de Dados",
+        "company": "Snowflake",
+        "company_website": "https://snowflake.com",
+        "city": "San Mateo",
+        "schedule": "full-time",
+        "salary": 11000,
+        "description": "Na Snowflake, você projetará e implementará soluções de armazenamento e processamento de dados na nuvem. Irá otimizar consultas, criar pipelines de dados e garantir a segurança dos dados.",
+        "requirements": "- Experiência avançada em engenharia de dados\n- Domínio de SQL e ferramentas de ETL\n- Conhecimento em arquitetura de dados em nuvem\n- Inglês fluente",
+        "number_of_positions": 4
     }
 ]
