@@ -19,6 +19,7 @@ task('api-commands', function () {
     run('{{bin/php}} {{release_path}}/artisan api:orders-api:reset');
     run('{{bin/php}} {{release_path}}/artisan api:frases-motivacionais:reset');
     run('{{bin/php}} {{release_path}}/artisan migrate --database="olympic_games" --path="database/migrations/olympic_games" --force');
+    run('{{bin/php}} {{release_path}}/artisan migrate --database="bloquinhos2025" --path="database/migrations/bloquinhos2025" --force');
 })->desc('Reset orders');
 
 // Hosts

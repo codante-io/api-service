@@ -27,6 +27,11 @@ return [
             'database' => database_path('db/job_board.sqlite'),
             'foreign_key_constraints' => true,
         ],
+        'bloquinhos2025' => [
+            'driver' => 'sqlite',
+            'database' => database_path('db/bloquinhos2025.sqlite'),
+            'foreign_key_constraints' => true,
+        ],
         'olympic_games' => [
             'driver' => 'sqlite',
             'database' => database_path('db/olympic_games.sqlite'),

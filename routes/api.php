@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Bloquinhos2025\Bloquinhos2025Controller;
 use App\Http\Controllers\BrazilFlags\BrazilFlagsController;
 use App\Http\Controllers\FrasesMotivacionais\QuoteController;
 use App\Http\Controllers\JobBoard\JobController;
@@ -48,6 +49,10 @@ Route::prefix('api')->group(function () {
         Route::get('/jobs/{job}/comments', [JobController::class, 'commentsIndex']);
         Route::get('/reset', [JobController::class, 'reset']);
         // Route::put('/jobs/{job}', [JobController::class, 'update']);
+    });
+
+    Route::middleware(['throttle:api'])->prefix('bloquinhos2025')->group(function () {
+        Route::get('/agenda', [Bloquinhos2025Controller::class, 'index']);
     });
 
     Route::middleware(['throttle:api'])->prefix('register-user')->group(function () {
