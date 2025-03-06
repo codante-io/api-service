@@ -25,7 +25,7 @@ class Bloquinhos2025Controller extends Controller
         ]);
 
         if (request()->has('date')) {
-            $query->where('date', request()->input('date'));
+            $query->whereDate('date_time', request()->input('date'));
         }   
 
         if (request()->has('city')) {
@@ -33,14 +33,15 @@ class Bloquinhos2025Controller extends Controller
         }   
 
         if (request()->has('sort')) {
-            $query->orderBy('date', request()->input('sort'));
+            $query->orderBy('date_time', request()->input('sort'));
         } else {
-            $query->orderBy('date', 'asc');
+            $query->orderBy('date_time', 'asc');
         }
 
         if (request()->has('search')) {
             $query->where('title', 'like', "%".request()->input('search')."%");
         }   
+
 
         return Bloquinhos2025Resource::collection($query->paginate(10));
     }

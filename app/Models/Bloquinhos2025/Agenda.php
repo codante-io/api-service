@@ -14,4 +14,8 @@ class Agenda extends Model
     protected $guarded = ['id'];
 
     protected $table = 'agenda';
+
+    protected $casts = [
+        'date_time' => 'datetime',
+    ];
 }
