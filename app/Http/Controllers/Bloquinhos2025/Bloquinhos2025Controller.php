@@ -34,12 +34,14 @@ class Bloquinhos2025Controller extends Controller
 
         if (request()->has('sort')) {
             $query->orderBy('date', request()->input('sort'));
+        } else {
+            $query->orderBy('date', 'asc');
         }
 
         if (request()->has('search')) {
             $query->where('title', 'like', "%".request()->input('search')."%");
         }   
 
-        return Bloquinhos2025Resource::collection($query->orderBy('date', 'asc')->paginate(10));
+        return Bloquinhos2025Resource::collection($query->paginate(10));
     }
 }
