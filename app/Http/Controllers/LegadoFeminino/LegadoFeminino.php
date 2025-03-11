@@ -7,7 +7,7 @@ use App\Http\Resources\LegadoFeminino\LegadoFemininoResource;
 use App\Models\LegadoFeminino\Agenda;
 use Illuminate\Http\Request;
 
-class Bloquinhos2025Controller extends Controller
+class LegadoFemininoController extends Controller
 {
    /**
      * Display a listing of the resource.
