@@ -5,800 +5,699 @@
       "nome": "Cleópatra",
       "anoNascimento": "69 a.C.",
       "anoMorte": "30 a.C.",
-      "contribuicao": "Última rainha da dinastia ptolomaica do Egito, desempenhou um papel crucial na política do Mediterrâneo. Sua inteligência, habilidades diplomáticas e relacionamentos estratégicos com líderes romanos como Júlio César e Marco Antônio marcaram um período de prosperidade e poder para o Egito.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Cleopatra_VII_Philopator_relief.jpg/220px-Cleopatra_VII_Philopator_relief.jpg"
+      "contribuicao": "Última rainha da dinastia ptolomaica do Egito, desempenhou um papel crucial na política do Mediterrâneo. Sua inteligência, habilidades diplomáticas e relacionamentos estratégicos com líderes romanos como Júlio César e Marco Antônio marcaram um período de prosperidade e poder para o Egito."
     },
     {
       "id": 2,
       "nome": "Tomoe Gozen",
       "anoNascimento": "1157",
       "anoMorte": "1247",
-      "contribuicao": "Foi uma guerreira samurai japonesa do final do século XII, conhecida por sua bravura e habilidades excepcionais em batalha. Ela lutou ao lado de Minamoto no Yoshinaka durante as Guerras Genpei e é lembrada como uma figura lendária na história do Japão feudal",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Tomoe-Gozen.jpg/220px-Tomoe-Gozen.jpg"
+      "contribuicao": "Foi uma guerreira samurai japonesa do final do século XII, conhecida por sua bravura e habilidades excepcionais em batalha. Ela lutou ao lado de Minamoto no Yoshinaka durante as Guerras Genpei e é lembrada como uma figura lendária na história do Japão feudal"
     },
     {
       "id": 3,
       "nome": "Joana D'Arc",
       "anoNascimento": "1412",
       "anoMorte": "1431",
-      "contribuicao": "Líder militar na Guerra dos Cem Anos e santa católica.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Joan_of_Arc_Miniature_Graphical_Variant.jpg/220px-Joan_of_Arc_Miniature_Graphical_Variant.jpg"
+      "contribuicao": "Líder militar na Guerra dos Cem Anos e santa católica."
     },
     {
       "id": 4,
       "nome": "Sor Juana Inês de la Cruz",
       "anoNascimento": "1648",
       "anoMorte": "1695",
-      "contribuicao": "Escritora e filósofa mexicana, defensora da educação feminina.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Sor_Juana_In%C3%A9s_de_la_Cruz.jpg/220px-Sor_Juana_In%C3%A9s_de_la_Cruz.jpg"
-    },
-    {
-      "id": 5,
-      "nome": "Rosa Luxemburgo",
-      "anoNascimento": "1871",
-      "anoMorte": "1919",
-      "contribuicao": "Revolucionária marxista e ativista pelos direitos democráticos.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rosa_Luxemburg_1913.jpg/220px-Rosa_Luxemburg_1913.jpg"
-    },
-    {
-      "id": 6,
-      "nome": "Marie Curie",
-      "anoNascimento": "1867",
-      "anoMorte": "1934",
-      "contribuicao": "Primeira mulher a ganhar um Prêmio Nobel, descobriu o rádio e polônio.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marie_Curie_c._1920s.jpg/220px-Marie_Curie_c._1920s.jpg"
-    },
-    {
-      "id": 7,
-      "nome": "Rosa Parks",
-      "anoNascimento": "1913",
-      "anoMorte": "2005",
-      "contribuicao": "Ativista dos direitos civis nos EUA, desafiou a segregação racial.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Rosa_Parks.jpg/220px-Rosa_Parks.jpg"
-    },
-    {
-      "id": 8,
-      "nome": "Harriet Tubman",
-      "anoNascimento": "1822",
-      "anoMorte": "1913",
-      "contribuicao": "Escravizada que escapou e ajudou outros a se libertarem.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Harriet_Tubman_portrait.jpg/220px-Harriet_Tubman_portrait.jpg"
-    },
-    {
-      "id": 9,
-      "nome": "Nísia Floresta",
-      "anoNascimento": "1810",
-      "anoMorte": "1885",
-      "contribuicao": "Escritora e educadora brasileira, pioneira na educação feminina.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Nisia_Floresta_Brasileira_Augusta.jpg/220px-Nisia_Floresta_Brasileira_Augusta.jpg"
-    },
-    {
-      "id": 10,
-      "nome": "Malala Yousafzai",
-      "anoNascimento": "1997",
-      "anoMorte": null,
-      "contribuicao": "Ativista pela educação feminina, sobrevivente de um atentado talibã.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Malala_Yousafzai_2015.jpg/220px-Malala_Yousafzai_2015.jpg"
-    },
-    {
-      "id": 11,
-      "nome": "Madre Teresa de Calcutá",
-      "anoNascimento": "1910",
-      "anoMorte": "1997",
-      "contribuicao": "Freira católica, dedicada ao cuidado dos pobres e doentes.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Mother_Teresa_1986.jpg/220px-Mother_Teresa_1986.jpg"
-    },
-    {
-      "id": 12,
-      "nome": "Frida Kahlo",
-      "anoNascimento": "1907",
-      "anoMorte": "1954",
-      "contribuicao": "Artista mexicana, conhecida por suas obras autobiográficas.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Frida_Kahlo_%281932%29.jpg/220px-Frida_Kahlo_%281932%29.jpg"
-    },
+      "contribuicao": "Escritora e filósofa mexicana, defensora da educação feminina."    },
+        {
+          "id": 5,
+          "nome": "Rosa Luxemburgo",
+          "anoNascimento": "1871",
+          "anoMorte": "1919",
+          "contribuicao": "Revolucionária marxista e ativista pelos direitos democráticos."
+        },
+        {
+          "id": 6,
+          "nome": "Marie Curie",
+          "anoNascimento": "1867",
+          "anoMorte": "1934",
+          "contribuicao": "Primeira mulher a ganhar um Prêmio Nobel, descobriu o rádio e polônio."
+        },
+        {
+          "id": 7,
+          "nome": "Rosa Parks",
+          "anoNascimento": "1913",
+          "anoMorte": "2005",
+          "contribuicao": "Ativista dos direitos civis nos EUA, desafiou a segregação racial."
+        },
+        {
+          "id": 8,
+          "nome": "Harriet Tubman",
+          "anoNascimento": "1822",
+          "anoMorte": "1913",
+          "contribuicao": "Escravizada que escapou e ajudou outros a se libertarem."
+        },
+        {
+          "id": 9,
+          "nome": "Nísia Floresta",
+          "anoNascimento": "1810",
+          "anoMorte": "1885",
+          "contribuicao": "Escritora e educadora brasileira, pioneira na educação feminina."
+        },
+        {
+          "id": 10,
+          "nome": "Malala Yousafzai",
+          "anoNascimento": "1997",
+          "anoMorte": null,
+          "contribuicao": "Ativista pela educação feminina, sobrevivente de um atentado talibã."
+        },
+        {
+          "id": 11,
+          "nome": "Madre Teresa de Calcutá",
+          "anoNascimento": "1910",
+          "anoMorte": "1997",
+          "contribuicao": "Freira católica, dedicada ao cuidado dos pobres e doentes."
+        },
+        {
+          "id": 12,
+          "nome": "Frida Kahlo",
+          "anoNascimento": "1907",
+          "anoMorte": "1954",
+          "contribuicao": "Artista mexicana, conhecida por suas obras autobiográficas."
+        },
     {
       "id": 13,
       "nome": "Simone de Beauvoir",
       "anoNascimento": "1908",
       "anoMorte": "1986",
-      "contribuicao": "Filósofa e escritora feminista francesa.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Simone_de_Beauvoir_1967.jpg/220px-Simone_de_Beauvoir_1967.jpg"
+      "contribuicao": "Filósofa e escritora feminista francesa."
     },
     {
       "id": 14,
       "nome": "Angela Davis",
       "anoNascimento": "1944",
       "anoMorte": null,
-      "contribuicao": "Ativista dos direitos civis e feminista nos EUA.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Angela_Davis_%28cropped%29.jpg/220px-Angela_Davis_%28cropped%29.jpg"
+      "contribuicao": "Ativista dos direitos civis e feminista nos EUA."
     },
     {
       "id": 15,
       "nome": "Greta Thunberg",
       "anoNascimento": "2003",
       "anoMorte": null,
-      "contribuicao": "Ativista climática global.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Greta_Thunberg_by_Anders_Hellberg_%28cropped%29.jpg/220px-Greta_Thunberg_by_Anders_Hellberg_%28cropped%29.jpg"
+      "contribuicao": "Ativista climática global."
     },
     {
       "id": 16,
       "nome": "Dandara dos Palmares",
       "anoNascimento": "17??",
       "anoMorte": "1694",
-      "contribuicao": "Líder quilombola no Brasil colonial.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Dandara_dos_Palmares.jpg/220px-Dandara_dos_Palmares.jpg"
+      "contribuicao": "Líder quilombola no Brasil colonial."
     },
     {
       "id": 17,
       "nome": "Nise da Silveira",
       "anoNascimento": "1905",
       "anoMorte": "1999",
-      "contribuicao": "Psiquiatra brasileira, pioneira na arte terapêutica.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Nise_da_Silveira.jpg/220px-Nise_da_Silveira.jpg"
+      "contribuicao": "Psiquiatra brasileira, pioneira na arte terapêutica."
     },
     {
       "id": 18,
       "nome": "Hatshepsut",
       "anoNascimento": "1508 a.C.",
       "anoMorte": "1458 a.C.",
-      "contribuicao": "Faraó do Egito, uma das primeiras mulheres a governar o Egito.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Hatshepsut.jpg/220px-Hatshepsut.jpg"
+      "contribuicao": "Faraó do Egito, uma das primeiras mulheres a governar o Egito."
     },
     {
       "id": 19,
       "nome": "Hipátia de Alexandria",
       "anoNascimento": "350 d.C.",
       "anoMorte": "415 d.C.",
-      "contribuicao": "Filósofa e matemática grega, assassinada por uma multidão cristã.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Hypatia2.jpg/220px-Hypatia2.jpg"
+      "contribuicao": "Filósofa e matemática grega, assassinada por uma multidão cristã."
     },
     {
       "id": 20,
       "nome": "Elizabeth I",
       "anoNascimento": "1533",
       "anoMorte": "1603",
-      "contribuicao": "Rainha da Inglaterra, conhecida por seu governo forte e culto.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Elizabeth_I_when_a_princess.jpg/220px-Elizabeth_I_when_a_princess.jpg"
+      "contribuicao": "Rainha da Inglaterra, conhecida por seu governo forte e culto."
     },
     {
       "id": 21,
       "nome": "Hildegarda de Bingen",
       "anoNascimento": "1098",
       "anoMorte": "1179",
-      "contribuicao": "Freira, escritora e compositora medieval alemã.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Hildegard_von_Bingen_%28kopie_von_einem_Gem%C3%A4lde_aus_dem_Rupertsberger_Codex%29.jpg/220px-Hildegard_von_Bingen_%28kopie_von_einem_Gem%C3%A4lde_aus_dem_Rupertsberger_Codex%29.jpg"
+      "contribuicao": "Freira, escritora e compositora medieval alemã."
     },
     {
       "id": 22,
       "nome": "Eleanor de Aquitânia",
       "anoNascimento": "1122",
       "anoMorte": "1204",
-      "contribuicao": "Rainha consorte da França e Inglaterra, influente na política medieval.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Eleanor_of_Aquitaine_%28Lisbon_Bible%29.jpg/220px-Eleanor_of_Aquitaine_%28Lisbon_Bible%29.jpg"
+      "contribuicao": "Rainha consorte da França e Inglaterra, influente na política medieval."
     },
     {
       "id": 23,
       "nome": "Lavinia Fontana",
       "anoNascimento": "1552",
       "anoMorte": "1614",
-      "contribuicao": "Pintora italiana, uma das primeiras mulheres a ganhar reconhecimento artístico.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Lavinia_Fontana_Self-Portrait_at_the_Spinet.jpg/220px-Lavinia_Fontana_Self-Portrait_at_the_Spinet.jpg"
+      "contribuicao": "Pintora italiana, uma das primeiras mulheres a ganhar reconhecimento artístico."
     },
     {
       "id": 24,
       "nome": "Carrie Chapman Catt",
       "anoNascimento": "1859",
       "anoMorte": "1947",
-      "contribuicao": "Líder do movimento sufragista nos EUA.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Carrie_Chapman_Catt_c1918.jpg/220px-Carrie_Chapman_Catt_c1918.jpg"
+      "contribuicao": "Líder do movimento sufragista nos EUA."
     },
     {
       "id": 25,
       "nome": "Alice Paul",
       "anoNascimento": "1885",
       "anoMorte": "1977",
-      "contribuicao": "Ativista sufragista nos EUA.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Alice_Paul_%28cph.3g05038%29.jpg/220px-Alice_Paul_%28cph.3g05038%29.jpg"
+      "contribuicao": "Ativista sufragista nos EUA."
     },
     {
       "id": 26,
       "nome": "Lucy Burns",
       "anoNascimento": "1879",
       "anoMorte": "1966",
-      "contribuicao": "Ativista sufragista americana, líder do Partido Nacional das Mulheres e figura chave na luta pelo direito ao voto feminino nos EUA. Conhecida por suas táticas de protesto ousadas e sua defesa da igualdade de gênero.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Lucy_Burns_%28cph.3c28225%29.jpg/220px-Lucy_Burns_%28cph.3c28225%29.jpg"
+      "contribuicao": "Ativista sufragista americana, líder do Partido Nacional das Mulheres e figura chave na luta pelo direito ao voto feminino nos EUA. Conhecida por suas táticas de protesto ousadas e sua defesa da igualdade de gênero."
     },
     {
       "id": 27,
       "nome": "Zitkala-Sa",
       "anoNascimento": "1876",
       "anoMorte": "1938",
-      "contribuicao": "Escritora e ativista pelos direitos dos povos indígenas nos EUA.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Zitkala-Sa.jpg/220px-Zitkala-Sa.jpg"
+      "contribuicao": "Escritora e ativista pelos direitos dos povos indígenas nos EUA."
     },
     {
       "id": 28,
       "nome": "Ida B. Wells-Barnett",
       "anoNascimento": "1862",
       "anoMorte": "1931",
-      "contribuicao": "Jornalista e ativista pelos direitos civis nos EUA.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ida_B._Wells-Barnett.jpg/220px-Ida_B._Wells-Barnett.jpg"
+      "contribuicao": "Jornalista e ativista pelos direitos civis nos EUA."
     },
     {
       "id": 29,
       "nome": "Emmy Noether",
       "anoNascimento": "1882",
       "anoMorte": "1935",
-      "contribuicao": "Matemática alemã, contribuiu para a teoria dos anéis e álgebras.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Emmy_Noether.jpg/220px-Emmy_Noether.jpg"
+      "contribuicao": "Matemática alemã, contribuiu para a teoria dos anéis e álgebras."
     },
     {
       "id": 30,
       "nome": "Xiang Jingyu",
       "anoNascimento": "1895",
       "anoMorte": "1928",
-      "contribuicao": "Pioneira do feminismo na China e membro do Partido Comunista.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Xiang_Jingyu.jpg/220px-Xiang_Jingyu.jpg"
+      "contribuicao": "Pioneira do feminismo na China e membro do Partido Comunista."
     },
     {
       "id": 31,
       "nome": "Bessie Smith",
       "anoNascimento": "1894",
       "anoMorte": "1937",
-      "contribuicao": "Cantora norte-americana, conhecida como a 'Imperatriz do Blues'.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Bessie_Smith_LOC.jpg/220px-Bessie_Smith_LOC.jpg"
+      "contribuicao": "Cantora norte-americana, conhecida como a 'Imperatriz do Blues'."
     },
     {
       "id": 32,
       "nome": "Coco Chanel",
       "anoNascimento": "1883",
       "anoMorte": "1971",
-      "contribuicao": "Estilista francesa, revolucionou a moda feminina.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Coco_Chanel.jpg/220px-Coco_Chanel.jpg"
+      "contribuicao": "Estilista francesa, revolucionou a moda feminina."
     },
     {
       "id": 33,
       "nome": "Margaret Sanger",
       "anoNascimento": "1879",
       "anoMorte": "1966",
-      "contribuicao": "Fundadora do movimento pelo controle da natalidade nos EUA.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Margaret_Sanger_NYWTS.jpg/220px-Margaret_Sanger_NYWTS.jpg"
+      "contribuicao": "Fundadora do movimento pelo controle da natalidade nos EUA."
     },
     {
       "id": 34,
       "nome": "Rosalind Franklin",
       "anoNascimento": "1920",
       "anoMorte": "1958",
-      "contribuicao": "Química britânica, contribuiu para o estudo do DNA.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rosalind_Franklin.jpg/220px-Rosalind_Franklin.jpg"
+      "contribuicao": "Química britânica, contribuiu para o estudo do DNA."
     },
     {
       "id": 35,
       "nome": "Eva Perón",
       "anoNascimento": "1919",
       "anoMorte": "1952",
-      "contribuicao": "Primeira-dama da Argentina, ativista social.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Eva_Per%C3%B3n_1950s.jpg/220px-Eva_Per%C3%B3n_1950s.jpg"
+      "contribuicao": "Primeira-dama da Argentina, ativista social."
     },
     {
       "id": 36,
       "nome": "Golda Meir",
       "anoNascimento": "1898",
       "anoMorte": "1978",
-      "contribuicao": "Primeira-ministra de Israel.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Golda_Meir_1956_%28cropped%29.jpg/220px-Golda_Meir_1956_%28cropped%29.jpg"
+      "contribuicao": "Primeira-ministra de Israel."
     },
     {
       "id": 37,
       "nome": "Jacqueline Kennedy",
       "anoNascimento": "1929",
       "anoMorte": "1994",
-      "contribuicao": "Primeira-dama dos EUA, figura cultural.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Jacqueline_Kennedy_official_portrait.jpg/220px-Jacqueline_Kennedy_official_portrait.jpg"
+      "contribuicao": "Primeira-dama dos EUA, figura cultural."
     },
     {
       "id": 38,
       "nome": "Rita Moreno",
       "anoNascimento": "1931",
       "anoMorte": null,
-      "contribuicao": "Atriz, vencedora do Óscar.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rita_Moreno_2017.jpg/220px-Rita_Moreno_2017.jpg"
+      "contribuicao": "Atriz, vencedora do Óscar."
     },
     {
       "id": 39,
       "nome": "Nancy Pelosi",
       "anoNascimento": "1940",
       "anoMorte": null,
-      "contribuicao": "Política norte-americana, primeira mulher a liderar a Câmara dos Representantes.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Nancy_Pelosi_official_photo_116th_Congress.jpg/220px-Nancy_Pelosi_official_photo_116th_Congress.jpg"
+      "contribuicao": "Política norte-americana, primeira mulher a liderar a Câmara dos Representantes."
     },
     {
       "id": 40,
       "nome": "Greta Garbo",
       "anoNascimento": "1905",
       "anoMorte": "1990",
-      "contribuicao": "Atriz sueca, ícone do cinema.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Greta_Garbo_by_Clarence_Sinclair_Bull_1928.jpg/220px-Greta_Garbo_by_Clarence_Sinclair_Bull_1928.jpg"
+      "contribuicao": "Atriz sueca, ícone do cinema."
     },
     {
       "id": 41,
       "nome": "Amelia Earhart",
       "anoNascimento": "1897",
       "anoMorte": "1937",
-      "contribuicao": "Pioneira da aviação.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Amelia_Earhart_in_flight_suit.jpg/220px-Amelia_Earhart_in_flight_suit.jpg"
+      "contribuicao": "Pioneira da aviação."
     },
     {
       "id": 42,
       "nome": "Jane Goodall",
       "anoNascimento": "1934",
       "anoMorte": null,
-      "contribuicao": "Primatologista e ativista ambiental.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Jane_Goodall_at_WEF_2020.jpg/220px-Jane_Goodall_at_WEF_2020.jpg"
+      "contribuicao": "Primatologista e ativista ambiental."
     },
     {
       "id": 43,
       "nome": "Shirley Chisholm",
       "anoNascimento": "1924",
       "anoMorte": "2005",
-      "contribuicao": "Política norte-americana, primeira mulher negra no Congresso.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Shirley_Chisholm.jpg/220px-Shirley_Chisholm.jpg"
+      "contribuicao": "Política norte-americana, primeira mulher negra no Congresso."
     },
     {
       "id": 44,
       "nome": "Corazon Aquino",
       "anoNascimento": "1933",
       "anoMorte": "2009",
-      "contribuicao": "Presidente das Filipinas, líder democrática.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Corazon_Aquino_1986.jpg/220px-Corazon_Aquino_1986.jpg"
+      "contribuicao": "Presidente das Filipinas, líder democrática."
     },
     {
       "id": 45,
       "nome": "Marilyn Monroe",
       "anoNascimento": "1926",
       "anoMorte": "1962",
-      "contribuicao": "Atriz e cantora norte-americana, ícone cultural.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Marilyn_Monroe_publicity_photo_for_There%27s_No_Business_Like_Show_Business.jpg/220px-Marilyn_Monroe_publicity_photo_for_There%27s_No_Business_Like_Show_Business.jpg"
+      "contribuicao": "Atriz e cantora norte-americana, ícone cultural."
     },
     {
       "id": 46,
       "nome": "Simone Veil",
       "anoNascimento": "1927",
       "anoMorte": "2017",
-      "contribuicao": "Política francesa, defensora dos direitos das mulheres.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Simone_Veil_%281927-2017%29.jpg/220px-Simone_Veil_%281927-2017%29.jpg"
+      "contribuicao": "Política francesa, defensora dos direitos das mulheres."
     },
     {
       "id": 47,
       "nome": "Aung San Suu Kyi",
       "anoNascimento": "1945",
       "anoMorte": null,
-      "contribuicao": "Política birmanesa, Nobel da Paz.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Aung_San_Suu_Kyi_at_the_World_Economic_Forum_on_East_Asia_2013.jpg/220px-Aung_San_Suu_Kyi_at_the_World_Economic_Forum_on_East_Asia_2013.jpg"
+      "contribuicao": "Política birmanesa, Nobel da Paz."
     },
     {
       "id": 48,
       "nome": "Michelle Obama",
       "anoNascimento": "1964",
       "anoMorte": null,
-      "contribuicao": "Ex-primeira-dama dos EUA, autora e ativista.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Michelle_Obama_official_portrait.jpg/220px-Michelle_Obama_official_portrait.jpg"
+      "contribuicao": "Ex-primeira-dama dos EUA, autora e ativista."
     },
     {
       "id": 49,
       "nome": "Sofia Ionescu-Ogrezeanu",
       "anoNascimento": "1920",
       "anoMorte": "2008",
-      "contribuicao": "Neurocirurgiã romena, primeira mulher a se especializar em neurocirurgia.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Sofia_Ionescu.jpg/220px-Sofia_Ionescu.jpg"
+      "contribuicao": "Neurocirurgiã romena, primeira mulher a se especializar em neurocirurgia."
     },
     {
       "id": 50,
       "nome": "Chien-Shiung Wu",
       "anoNascimento": "1912",
       "anoMorte": "1997",
-      "contribuicao": "Física chinesa-americana, contribuiu para o Projeto Manhattan.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Chien-Shiung_Wu.jpg/220px-Chien-Shiung_Wu.jpg"
+      "contribuicao": "Física chinesa-americana, contribuiu para o Projeto Manhattan."
     },
     {
       "id": 51,
       "nome": "Eleanor Roosevelt",
       "anoNascimento": "1884",
       "anoMorte": "1962",
-      "contribuicao": "Primeira-dama dos EUA, defensora dos direitos humanos.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Eleanor_Roosevelt_photo_portrait_ca._1933.jpg/220px-Eleanor_Roosevelt_photo_portrait_ca._1933.jpg"
+      "contribuicao": "Primeira-dama dos EUA, defensora dos direitos humanos."
     },
     {
       "id": 52,
       "nome": "Lucille Ball",
       "anoNascimento": "1911",
       "anoMorte": "1989",
-      "contribuicao": "Comediante norte-americana, pioneira na televisão.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lucille_Ball_1960.JPG/220px-Lucille_Ball_1960.JPG"
+      "contribuicao": "Comediante norte-americana, pioneira na televisão."
     },
     {
       "id": 53,
       "nome": "Grace Hopper",
       "anoNascimento": "1906",
       "anoMorte": "1992",
-      "contribuicao": "Pioneira da computação e almirante da Marinha dos EUA,foi uma das primeiras programadoras do computador Harvard Mark I, desenvolveu o primeiro compilador para linguagens de programação e popularizou o termo 'bug' para descrever falhas em sistemas de computador. Sua visão e contribuições foram fundamentais para o desenvolvimento da computação moderna.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Grace_Murray_Hopper.jpg/220px-Grace_Murray_Hopper.jpg"
+      "contribuicao": "Pioneira da computação e almirante da Marinha dos EUA, foi uma das primeiras programadoras do computador Harvard Mark I, desenvolveu o primeiro compilador para linguagens de programação e popularizou o termo 'bug' para descrever falhas em sistemas de computador. Sua visão e contribuições foram fundamentais para o desenvolvimento da computação moderna."
     },
     {
       "id": 54,
       "nome": "As irmãs Mirabal",
       "anoNascimento": "1924-1935",
       "anoMorte": "1960",
-      "contribuicao": "Ativistas dominicanas, lutaram contra a ditadura de Trujillo.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Hermanas_Mirabal_crop.jpg/220px-Hermanas_Mirabal_crop.jpg"
+      "contribuicao": "Ativistas dominicanas, lutaram contra a ditadura de Trujillo."
     },
     {
       "id": 55,
       "nome": "China Machado",
       "anoNascimento": "1929",
       "anoMorte": "2016",
-      "contribuicao": "Modelo e produtora de TV norte-americana.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/China_Machado.jpg/220px-China_Machado.jpg"
+      "contribuicao": "Modelo e produtora de TV norte-americana."
     },
     {
       "id": 56,
       "nome": "Irna Phillips",
       "anoNascimento": "1901",
       "anoMorte": "1973",
-      "contribuicao": "Argumentista norte-americana, criadora de novelas.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Irna_Phillips.jpg/220px-Irna_Phillips.jpg"
+      "contribuicao": "Argumentista norte-americana, criadora de novelas."
     },
     {
       "id": 57,
       "nome": "Recy Taylor",
       "anoNascimento": "1919",
       "anoMorte": "2017",
-      "contribuicao": "Ativista afro-americana, denunciou violações e mobilizou o movimento pelos direitos civis.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Recy_Taylor_2011.jpg/220px-Recy_Taylor_2011.jpg"
+      "contribuicao": "Ativista afro-americana, denunciou violações e mobilizou o movimento pelos direitos civis."
     },
     {
       "id": 58,
       "nome": "Amrit Kaur",
       "anoNascimento": "1889",
       "anoMorte": "1964",
-      "contribuicao": "Ministra da Saúde da Índia.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Rajkumari_Amrit_Kaur_in_1951.jpg/220px-Rajkumari_Amrit_Kaur_in_1951.jpg"
+      "contribuicao": "Ministra da Saúde da Índia."
     },
     {
       "id": 59,
       "nome": "Margaret Chase Smith",
       "anoNascimento": "1897",
       "anoMorte": "1995",
-      "contribuicao": "Senadora norte-americana, defensora dos direitos das mulheres.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Margaret_Chase_Smith_official_Senate_photo.jpg/220px-Margaret_Chase_Smith_official_Senate_photo.jpg"
+      "contribuicao": "Senadora norte-americana, defensora dos direitos das mulheres."
     },
     {
       "id": 60,
       "nome": "Isabel II",
       "anoNascimento": "1926",
       "anoMorte": "2022",
-      "contribuicao": "Rainha do Reino Unido, líder da Commonwealth.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Queen_Elizabeth_II_in_March_2015.jpg/220px-Queen_Elizabeth_II_in_March_2015.jpg"
+      "contribuicao": "Rainha do Reino Unido, líder da Commonwealth."
     },
     {
       "id": 61,
       "nome": "Wallis Simpson",
       "anoNascimento": "1896",
       "anoMorte": "1986",
-      "contribuicao": "Duquesa de Windsor, influente na sociedade britânica.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Wallis_Simpson_1936.JPG/220px-Wallis_Simpson_1936.JPG"
+      "contribuicao": "Duquesa de Windsor, influente na sociedade britânica."
     },
     {
       "id": 62,
       "nome": "Rosalyn Yalow",
       "anoNascimento": "1921",
       "anoMorte": "2011",
-      "contribuicao": "Física norte-americana, Nobel de Fisiologia ou Medicina.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Rosalyn_Yalow.jpg/220px-Rosalyn_Yalow.jpg"
+      "contribuicao": "Física norte-americana, Nobel de Fisiologia ou Medicina."
     },
     {
       "id": 63,
       "nome": "Dorothy Hodgkin",
       "anoNascimento": "1910",
       "anoMorte": "1994",
-      "contribuicao": "Química britânica, Nobel de Química.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Dorothy_Hodgkin_1964.jpg/220px-Dorothy_Hodgkin_1964.jpg"
+      "contribuicao": "Química britânica, Nobel de Química."
     },
     {
       "id": 64,
       "nome": "Gertrude Ederle",
       "anoNascimento": "1905",
       "anoMorte": "2003",
-      "contribuicao": "Nadadora norte-americana, primeira mulher a atravessar o Canal da Mancha.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Ederle.jpg/220px-Ederle.jpg"
+      "contribuicao": "Nadadora norte-americana, primeira mulher a atravessar o Canal da Mancha."
     },
     {
       "id": 65,
       "nome": "Billie Holiday",
       "anoNascimento": "1915",
       "anoMorte": "1959",
-      "contribuicao": "Cantora norte-americana, ícone do jazz.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Billie_Holiday_1947_%28cropped%29.jpg/220px-Billie_Holiday_1947_%28cropped%29.jpg"
+      "contribuicao": "Cantora norte-americana, ícone do jazz."
     },
     {
       "id": 66,
       "nome": "Georgia O'Keeffe",
       "anoNascimento": "1887",
       "anoMorte": "1986",
-      "contribuicao": "Pintora norte-americana, conhecida por suas obras modernistas.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Georgia_O%27Keeffe_by_Alfred_Stieglitz_1918.jpg/220px-Georgia_O%27Keeffe_by_Alfred_Stieglitz_1918.jpg"
+      "contribuicao": "Pintora norte-americana, conhecida por suas obras modernistas."
     },
     {
       "id": 67,
       "nome": "Wilma Rudolph",
       "anoNascimento": "1940",
       "anoMorte": "1994",
-      "contribuicao": "Atleta norte-americana, primeira mulher a ganhar três medalhas de ouro em uma Olimpíada.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Wilma_Rudolph.jpg/220px-Wilma_Rudolph.jpg"
+      "contribuicao": "Atleta norte-americana, primeira mulher a ganhar três medalhas de ouro em uma Olimpíada."
     },
     {
       "id": 68,
       "nome": "Valentina Tereshkova",
       "anoNascimento": "1937",
       "anoMorte": null,
-      "contribuicao": "Cosmonauta soviética, primeira mulher no espaço.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Valentina_Tereshkova_%28cropped%29.jpg/220px-Valentina_Tereshkova_%28cropped%29.jpg"
+      "contribuicao": "Cosmonauta soviética, primeira mulher no espaço."
     },
     {
       "id": 69,
       "nome": "Sally Ride",
       "anoNascimento": "1951",
       "anoMorte": "2012",
-      "contribuicao": "Física e astronauta norte-americana, primeira mulher a viajar para o espaço.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sally_Ride.jpg/220px-Sally_Ride.jpg"
+      "contribuicao": "Física e astronauta norte-americana, primeira mulher a viajar para o espaço."
     },
     {
       "id": 70,
       "nome": "Mae Jemison",
       "anoNascimento": "1956",
       "anoMorte": null,
-      "contribuicao": "Médica e astronauta norte-americana, primeira mulher negra no espaço.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mae_Jemison.jpg/220px-Mae_Jemison.jpg"
+      "contribuicao": "Médica e astronauta norte-americana, primeira mulher negra no espaço."
     },
     {
       "id": 71,
       "nome": "Cherie Blair",
       "anoNascimento": "1954",
       "anoMorte": null,
-      "contribuicao": "Advogada britânica, esposa do ex-primeiro-ministro Tony Blair.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Cherie_Blair_at_the_World_Economic_Forum_on_East_Asia_2013.jpg/220px-Cherie_Blair_at_the_World_Economic_Forum_on_East_Asia_2013.jpg"
+      "contribuicao": "Advogada britânica, esposa do ex-primeiro-ministro Tony Blair."
     },
     {
       "id": 72,
       "nome": "Indira Gandhi",
       "anoNascimento": "1917",
       "anoMorte": "1984",
-      "contribuicao": "Primeira-ministra da Índia.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Indira_Gandhi_1966.jpg/220px-Indira_Gandhi_1966.jpg"
+      "contribuicao": "Primeira-ministra da Índia."
     },
     {
       "id": 73,
       "nome": "Benazir Bhutto",
       "anoNascimento": "1953",
       "anoMorte": "2007",
-      "contribuicao": "Primeira-ministra do Paquistão.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Benazir_Bhutto_at_the_WEF_in_2007.jpg/220px-Benazir_Bhutto_at_the_WEF_in_2007.jpg"
+      "contribuicao": "Primeira-ministra do Paquistão."
     },
     {
       "id": 74,
       "nome": "Margaret Thatcher",
       "anoNascimento": "1925",
       "anoMorte": "2013",
-      "contribuicao": "Primeira-ministra do Reino Unido.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Margaret_Thatcher.jpg/220px-Margaret_Thatcher.jpg"
+      "contribuicao": "Primeira-ministra do Reino Unido."
     },
     {
       "id": 75,
       "nome": "Angela Merkel",
       "anoNascimento": "1954",
       "anoMorte": null,
-      "contribuicao": "Chanceler da Alemanha.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Angela_Merkel_2019.jpg/220px-Angela_Merkel_2019.jpg"
+      "contribuicao": "Chanceler da Alemanha."
     },
     {
       "id": 76,
       "nome": "Ellen Johnson Sirleaf",
       "anoNascimento": "1938",
       "anoMorte": null,
-      "contribuicao": "Presidente da Libéria, Nobel da Paz.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Ellen_Johnson_Sirleaf_official_portrait.jpg/220px-Ellen_Johnson_Sirleaf_official_portrait.jpg"
+      "contribuicao": "Presidente da Libéria, Nobel da Paz."
     },
     {
       "id": 77,
       "nome": "Susan B. Anthony",
       "anoNascimento": "1820",
       "anoMorte": "1906",
-      "contribuicao": "Ativista sufragista nos EUA.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Susan_B_Anthony_c1880.jpg/220px-Susan_B_Anthony_c1880.jpg"
+      "contribuicao": "Ativista sufragista nos EUA."
     },
     {
       "id": 78,
       "nome": "Clara Barton",
       "anoNascimento": "1821",
       "anoMorte": "1912",
-      "contribuicao": "Fundadora da Cruz Vermelha dos EUA.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Clara_Barton_c1904.jpg/220px-Clara_Barton_c1904.jpg"
+      "contribuicao": "Fundadora da Cruz Vermelha dos EUA."
     },
     {
       "id": 79,
       "nome": "Florence Nightingale",
       "anoNascimento": "1820",
       "anoMorte": "1910",
-      "contribuicao": "Enfermeira britânica, considerada a fundadora da enfermagem moderna.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Florence_Nightingale_by_H._Hering_NPG_3930.jpg/220px-Florence_Nightingale_by_H._Hering_NPG_3930.jpg"
+      "contribuicao": "Enfermeira britânica, considerada a fundadora da enfermagem moderna."
     },
     {
       "id": 80,
       "nome": "Marie Stopes",
       "anoNascimento": "1880",
       "anoMorte": "1958",
-      "contribuicao": "Pioneira no controle da natalidade no Reino Unido.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Marie_Stopes_Wellcome_M0013562.jpg/220px-Marie_Stopes_Wellcome_M0013562.jpg"
+      "contribuicao": "Pioneira no controle da natalidade no Reino Unido."
     },
     {
       "id": 81,
       "nome": "Ruth Bader Ginsburg",
       "anoNascimento": "1933",
       "anoMorte": "2020",
-      "contribuicao": "Juíza da Suprema Corte dos EUA, defensora dos direitos das mulheres.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ruth_Bader_Ginsburg_official_SCOTUS_portrait.jpg/220px-Ruth_Bader_Ginsburg_official_SCOTUS_portrait.jpg"
+      "contribuicao": "Juíza da Suprema Corte dos EUA, defensora dos direitos das mulheres."
     },
     {
       "id": 82,
       "nome": "Sonia Sotomayor",
       "anoNascimento": "1954",
       "anoMorte": null,
-      "contribuicao": "Juíza da Suprema Corte dos EUA, primeira latina a ocupar o cargo.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Sonia_Sotomayor_official_portrait.jpg/220px-Sonia_Sotomayor_official_portrait.jpg"
+      "contribuicao": "Juíza da Suprema Corte dos EUA, primeira latina a ocupar o cargo."
     },
     {
       "id": 83,
       "nome": "Kamala Harris",
       "anoNascimento": "1964",
       "anoMorte": null,
-      "contribuicao": "Vice-presidente dos EUA, primeira mulher a ocupar o cargo.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Kamala_Harris_official_portrait.jpg/220px-Kamala_Harris_official_portrait.jpg"
+      "contribuicao": "Vice-presidente dos EUA, primeira mulher a ocupar o cargo."
     },
     {
       "id": 84,
       "nome": "Alexandria Ocasio-Cortez",
       "anoNascimento": "1989",
       "anoMorte": null,
-      "contribuicao": "Política norte-americana, uma das mais jovens a ser eleita para o Congresso.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Alexandria_Ocasio-Cortez_official_portrait.jpg/220px-Alexandria_Ocasio-Cortez_official_portrait.jpg"
+      "contribuicao": "Política norte-americana, uma das mais jovens a ser eleita para o Congresso."
     },
     {
       "id": 85,
       "nome": "Ruth Handler",
       "anoNascimento": "1916",
       "anoMorte": "2002",
-      "contribuicao": "Empresária norte-americana, criadora da boneca Barbie.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Ruth_Handler.jpg/220px-Ruth_Handler.jpg"
+      "contribuicao": "Empresária norte-americana, criadora da boneca Barbie."
     },
     {
       "id": 86,
       "nome": "Estefânia de Aspânia",
       "anoNascimento": "1130",
       "anoMorte": "1170",
-      "contribuicao": "Rainha consorte de Portugal.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Estefania_de_Armenia.jpg/220px-Estefania_de_Armenia.jpg"
+      "contribuicao": "Rainha consorte de Portugal."
     },
     {
       "id": 87,
       "nome": "Maria Gaetana Agnesi",
       "anoNascimento": "1718",
       "anoMorte": "1799",
-      "contribuicao": "Matemática italiana, autora de um dos primeiros livros de cálculo.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Maria_Gaetana_Agnesi.jpg/220px-Maria_Gaetana_Agnesi.jpg"
+      "contribuicao": "Matemática italiana, autora de um dos primeiros livros de cálculo."
     },
     {
       "id": 88,
       "nome": "Mary Seacole",
       "anoNascimento": "1805",
       "anoMorte": "1881",
-      "contribuicao": "Enfermeira jamaicana, atuou na Guerra da Crimeia.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mary_Seacole_Wellcome_V0027552.jpg/220px-Mary_Seacole_Wellcome_V0027552.jpg"
+      "contribuicao": "Enfermeira jamaicana, atuou na Guerra da Crimeia."
     },
     {
       "id": 89,
       "nome": "Ada Lovelace",
       "anoNascimento": "1815",
       "anoMorte": "1852",
-      "contribuicao": "Matemática britânica, considerada a primeira programadora de computador.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/220px-Ada_Lovelace_portrait.jpg"
+      "contribuicao": "Matemática britânica, considerada a primeira programadora de computador."
     },
     {
       "id": 90,
       "nome": "Hedy Lamarr",
       "anoNascimento": "1914",
       "anoMorte": "2000",
-      "contribuicao": "Atriz e inventora austríaca-americana, desenvolveu tecnologia precursora do Wi-Fi.",
-      "foto": "https://pt.wikipedia.org/wiki/Hedy_Lamarr#/media/Ficheiro:Hedy_Lamarr_in_The_Heavenly_Body_1944.jpg"
+      "contribuicao": "Atriz e inventora austríaca-americana, desenvolveu tecnologia precursora do Wi-Fi."
     },
     {
       "id": 91,
       "nome": "Rachel Carson",
       "anoNascimento": "1907",
       "anoMorte": "1964",
-      "contribuicao": "Bióloga marinha e ativista ambiental norte-americana.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Rachel_Carson_1950s.jpg/220px-Rachel_Carson_1950s.jpg"
+      "contribuicao": "Bióloga marinha e ativista ambiental norte-americana."
     },
     {
       "id": 92,
       "nome": "Dorothea Lange",
       "anoNascimento": "1895",
       "anoMorte": "1965",
-      "contribuicao": "Fotógrafa documental norte-americana.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Dorothea_Lange_%28cropped%29.jpg/220px-Dorothea_Lange_%28cropped%29.jpg"
+      "contribuicao": "Fotógrafa documental norte-americana."
     },
     {
       "id": 93,
       "nome": "Toni Morrison",
       "anoNascimento": "1931",
       "anoMorte": "2019",
-      "contribuicao": "Escritora norte-americana, Nobel de Literatura.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Toni_Morrison_by_Angela_Davis.jpg/220px-Toni_Morrison_by_Angela_Davis.jpg"
+      "contribuicao": "Escritora norte-americana, Nobel de Literatura."
     },
     {
       "id": 94,
       "nome": "Maya Angelou",
       "anoNascimento": "1928",
       "anoMorte": "2014",
-      "contribuicao": "Escritora e poetisa norte-americana.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Maya_Angelou_cropped.jpg/220px-Maya_Angelou_cropped.jpg"
+      "contribuicao": "Escritora e poetisa norte-americana."
     },
     {
       "id": 95,
       "nome": "Audre Lorde",
       "anoNascimento": "1934",
       "anoMorte": "1992",
-      "contribuicao": "Escritora e ativista feminista norte-americana.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Audre_Lorde_%28cropped%29.jpg/220px-Audre_Lorde_%28cropped%29.jpg"
+      "contribuicao": "Escritora e ativista feminista norte-americana."
     },
     {
       "id": 96,
       "nome": "Rebeca Andrade",
       "anoNascimento": "1999",
       "anoMorte": null,
-      "contribuicao": "Ginasta artística brasileira, medalhista olímpica e mundial.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Rebeca_Andrade_2021.jpg/220px-Rebeca_Andrade_2021.jpg"
+      "contribuicao": "Ginasta artística brasileira, medalhista olímpica e mundial."
     },
     {
       "id": 97,
       "nome": "Simone Biles",
       "anoNascimento": "1997",
       "anoMorte": null,
-      "contribuicao": "Ginasta artística americana, uma das mais condecoradas da história.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Simone_Biles_Olympics.jpg/220px-Simone_Biles_Olympics.jpg"
+      "contribuicao": "Ginasta artística americana, uma das mais condecoradas da história."
     },
     {
       "id": 98,
       "nome": "Marta Vieira da Silva",
       "anoNascimento": "1986",
       "anoMorte": null,
-      "contribuicao": "Futebolista, considerada uma das maiores jogadoras de futebol de todos os tempos.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Marta_Silva_2015.jpg/220px-Marta_Silva_2015.jpg"
+      "contribuicao": "Futebolista, considerada uma das maiores jogadoras de futebol de todos os tempos."
     },
     {
       "id": 99,
       "nome": "Maria da Penha",
       "anoNascimento": "1945",
       "anoMorte": null,
-      "contribuicao": "Biofarmacêutica e ativista pelos direitos das mulheres, cujo caso de violência doméstica levou à criação da Lei Maria da Penha.",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Maria_da_Penha_Maia_Fernandes.jpg/220px-Maria_da_Penha_Maia_Fernandes.jpg"
+      "contribuicao": "Biofarmacêutica e ativista pelos direitos das mulheres, cujo caso de violência doméstica levou à criação da Lei Maria da Penha."
     },
     {
       "id": 100,
       "nome": "Emmeline Pankhurst",
       "anoNascimento": "1858",
       "anoMorte": "1928",
-      "contribuicao": "Líder do movimento sufragista britânico, que lutou pelo direito ao voto das mulheres no Reino Unido. Fundadora da União Social e Política das Mulheres (WSPU).",
-      "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Emmeline_Pankhurst2.jpg/220px-Emmeline_Pankhurst2.jpg"
+      "contribuicao": "Líder do movimento sufragista britânico, que lutou pelo direito ao voto das mulheres no Reino Unido. Fundadora da União Social e Política das Mulheres (WSPU)."
     }
   ]
 }
