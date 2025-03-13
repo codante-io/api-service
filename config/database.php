@@ -37,6 +37,11 @@ return [
             'database' => database_path('db/olympic_games.sqlite'),
             'foreign_key_constraints' => true,
         ],
+        'legado_feminino' => [
+            'driver' => 'sqlite',
+            'database' => database_path('db/legado_feminino.sqlite'),
+            'foreign_key_constraints' => true,
+        ],
         'senator_expenses' => [
             'driver' => 'mysql',
             'database' => 'apis-senator-expenses',
