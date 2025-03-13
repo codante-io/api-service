@@ -14,7 +14,6 @@ class LegadoFemininoController extends Controller
      */
     public function index(Request $request)
     {
-        // $query = MulherNotavel::query();
         $women = Woman::all();
 
         return LegadoFemininoResource::collection($women);
