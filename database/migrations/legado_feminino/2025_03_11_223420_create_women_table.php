@@ -9,8 +9,8 @@ return new class extends Migration {
         Schema::create('women', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
-            $table->string('anoNascimento')->nullable();
-            $table->string('anoMorte')->nullable();
+            $table->string('ano_nascimento')->nullable();
+            $table->string('ano_morte')->nullable();
             $table->text('contribuicao');
             $table->string('foto')->nullable();
             $table->timestamps();
