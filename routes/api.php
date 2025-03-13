@@ -60,8 +60,8 @@ Route::prefix('api')->group(function () {
         Route::post('/register', [RegisterUserController::class, 'validate']);
     });
 
-    Route::middleware(['throttle:api'])->prefix('legadofeminino')->group(function () {
-        Route::get('/woman', [LegadoFemininoController::class, 'index']);
+    Route::middleware(['throttle:api'])->prefix('legado-feminino')->group(function () {
+        Route::get('/women', [LegadoFemininoController::class, 'index']);
     });
 
 });
