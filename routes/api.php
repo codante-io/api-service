@@ -11,6 +11,7 @@ use App\Http\Controllers\Reviews\ReviewController;
 use App\Http\Controllers\SenatorExpenses\ExpenseController;
 use App\Http\Controllers\SenatorExpenses\PartyController;
 use App\Http\Controllers\SenatorExpenses\SenatorController;
+use App\Http\Controllers\LegadoFeminino\LegadoFemininoController;
 use Illuminate\Support\Facades\Route;
 
 Route::prefix('api')->group(function () {
@@ -57,6 +58,10 @@ Route::prefix('api')->group(function () {
 
     Route::middleware(['throttle:api'])->prefix('register-user')->group(function () {
         Route::post('/register', [RegisterUserController::class, 'validate']);
+    });
+
+    Route::middleware(['throttle:api'])->prefix('legado-feminino')->group(function () {
+        Route::get('/women', [LegadoFemininoController::class, 'index']);
     });
 
 });
