@@ -18,8 +18,8 @@ class LegadoFemininoResource extends JsonResource
         return [
             'id' => $this->id,
             'nome' => $this->nome,
-            'ano_nascimento' => $this->anoNascimento,
-            'ano_morte' => $this->anoMorte,
+            'ano_nascimento' => $this->ano_nascimento,
+            'ano_morte' => $this->ano_morte,
             'contribuicao' => $this->contribuicao,
         ];
     }
