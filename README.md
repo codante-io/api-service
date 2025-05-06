@@ -1,11 +1,13 @@
 # Codante APIs
 
 
-## APIs
+## APIs do Codante
 
 - Frases Motivacionais
 - Pedidos (Orders)
 - Painel de Vagas (Job Board)
+
+... dentre outras. 
 
 ## Criando uma nova API
 
